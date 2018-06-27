@@ -5,10 +5,17 @@ from pyomo.environ import *
 from pyomo.dae import *
 from matplotlib import pyplot as plt
 
+<<<<<<< HEAD
 Ntank = 10
 m = ConcreteModel()
 m.I = RangeSet(Ntank)
 m.t = ContinuousSet(bounds=[0,60])
+=======
+Ntank = 5
+m = ConcreteModel()
+m.I = RangeSet(Ntank)
+m.t = ContinuousSet(bounds=[0,100])
+>>>>>>> f8e829e407275a773081ba107e4703698ee2020f
 
 m.L = Var(m.I, m.t, within=NonNegativeReals, initialize=0.75)
 m.delL = Var(m.I, m.t, within=NonNegativeReals)
@@ -84,10 +91,17 @@ def ICs(m):
         yield m.L[i,0] == 0
 
 
+<<<<<<< HEAD
 discretizer = TransformationFactory('dae.collocation')
 discretizer.apply_to(m, nfe=20, ncp=1)
 
 # add rate of change constraints to valve opening problem
+=======
+discretizer = TransformationFactory('dae.finite_difference')
+discretizer.apply_to(m, nfe=20, scheme='BACKWARD')
+
+# add rate of change constraints to valve opening proble
+>>>>>>> f8e829e407275a773081ba107e4703698ee2020f
 
 @m.ConstraintList()
 def RoC(m):
@@ -99,12 +113,19 @@ def RoC(m):
             yield (m.w0[tplus] -m.w0[t])**2 <= 0.04
             t = tplus
 
+<<<<<<< HEAD
 # big-M formulation seems to need additional endpoint constraint
 
 # @m.Constraint(m.I)
 # def endpoint(m, i):
 #     tfinal = m.t.last()
 #     return inequality(0.749, m.L[i, tfinal], 0.751)
+=======
+@m.Constraint(m.I)
+def endpoint(m, i):
+    tfinal = m.t.last()
+    return inequality(0.749, m.L[i, tfinal], 0.751)
+>>>>>>> f8e829e407275a773081ba107e4703698ee2020f
 
 
 

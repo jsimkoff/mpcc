@@ -115,8 +115,13 @@ m.obj = Objective(sense=minimize, expr=(sum(sum((0.75-m.L[i,t])**2 + m.y2[i,t]*m
 
 
 solver = SolverFactory('ipopt')
+<<<<<<< HEAD
 solver.options["ma27_pivtol"] = 1e-10
 solver.options["tol"] = 1e-6
+=======
+solver.options["ma27_pivtol"] = 1e-6
+solver.options["tol"] = 1e-12
+>>>>>>> f8e829e407275a773081ba107e4703698ee2020f
 results = solver.solve(m, tee=True)
 print("time: %0.4f\n" % results['Solver'][0]['Time'])
 m.obj.display()
