@@ -5,7 +5,7 @@ from pyomo.environ import *
 from pyomo.dae import *
 from matplotlib import pyplot as plt
 
-Ntank = 10
+Ntank = 5
 m = ConcreteModel()
 m.I = RangeSet(Ntank)
 m.t = ContinuousSet(bounds=[0,100])
@@ -48,7 +48,7 @@ def _Ldot(m, i, t):
 @m.Constraint(m.I, m.t)
 def _F(m, i, t):
 
-    return m.F[i, t] == m.w[i, t]*m.k[i]*sqrt(m.delL[i, t]+1e-4)
+    return m.F[i, t] == m.w[i, t]*m.k[i]*sqrt(m.delL[i, t])
 
 @m.Constraint(m.t)
 def _F0(m, t):
@@ -67,7 +67,10 @@ def _delL(m, i, t):
 
 @m.Constraint(m.I, m.t)
 def _slacks(m, i, t):
-    return m.sp[i, t] - m.sn[i, t] == m.L[i, t] - m.H[i]
+    if i < Ntank:
+        return m.sp[i, t] - m.sn[i, t] == m.L[i+1, t] - m.H[i+1]
+    else:
+        return Constraint.Skip
 
 @m.Constraint(m.I, m.t)
 def _ysum(m, i, t):
@@ -75,16 +78,16 @@ def _ysum(m, i, t):
 
 # @m.Constraint(m.I, m.t)
 # def compslack1(m, i, t):
-#     return  m.y2[i, t]*m.sp[i, t] <= 1e-1
+#     return  m.y2[i, t]*m.sp[i, t] <= 1e-2
 #
 # @m.Constraint(m.I, m.t)
 # def compslack2(m, i, t):
-#     return m.y1[i, t]*m.sn[i, t] <= 1e-1
+#     return m.y1[i, t]*m.sn[i, t] <= 1e-2
 
 @m.ConstraintList()
 def ICs(m):
     for i in m.I:
-        yield m.L[i,0] == 0
+        yield m.L[i,0] == 1e-4
 
 
 discretizer = TransformationFactory('dae.collocation')
@@ -102,29 +105,26 @@ def RoC(m):
             yield (m.w0[tplus] -m.w0[t])**2 <= 0.04
             t = tplus
 #
-# m.obj_var = Var(initialize=0,within=NonNegativeReals)
-# @m.Constraint()
-# def _obj_var(m):
-#     m.obj_var = sum(sum((0.75-m.L[i,t])**2 for t in m.t) for i in m.I)
+m.obj_var = Var(initialize=0,within=NonNegativeReals)
 
-m.obj = Objective(sense=minimize, expr=(sum(sum((0.75-m.L[i,t])**2 + m.y2[i,t]*m.sp[i,t] \
-                                                    + m.y1[i, t]*m.sn[i, t] for t in m.t) for i in m.I)\
-                                                    # +m.y1[1,20]*m.sn[1,20]*100+ m.y1[1,25]*m.sn[1,25]*100\  # had to tweak for 10 tank case
-                                                    # +m.y1[1,15]*m.sn[1,15]*100+ m.y1[1,30]*m.sn[1,30]*100     # - especially degenerate(?)
-                                                    ))
+@m.Constraint()
+def _obj_var(m):
+    return m.obj_var == sum(sum((0.75-m.L[i,t])**2 for t in m.t) for i in m.I)
+
+m.obj = Objective(sense=minimize, expr=(sum(sum((0.75-m.L[i,t])**2  \
+                                    # + 1*m.y2[i,t]*m.sp[i,t]+ 1*m.y1[i, t]*m.sn[i, t] \
+                                    for t in m.t) for i in m.I) \
+                                                ))
 
 
-solver = SolverFactory('ipopt')
-<<<<<<< HEAD
-solver.options["ma27_pivtol"] = 1e-10
-solver.options["tol"] = 1e-6
-=======
-solver.options["ma27_pivtol"] = 1e-6
-solver.options["tol"] = 1e-12
->>>>>>> f8e829e407275a773081ba107e4703698ee2020f
+solver = SolverFactory('baron')
+
+# solver.options["ma27_pivtol"] = 1e-10
+# solver.options["tol"] = 1e-6
+
 results = solver.solve(m, tee=True)
 print("time: %0.4f\n" % results['Solver'][0]['Time'])
-m.obj.display()
+m.obj_var.display()
 
 ######### PLOTS ##########
 

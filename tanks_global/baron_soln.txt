@@ -1,0 +1,1810 @@
+Wall clock time:                 43201.00
+ Total CPU time used:             43200.00
+
+ Total no. of BaR iterations:   93935
+ Best solution found at node:   63664
+ Max. no. of nodes in memory:   68491
+ 
+ All done
+===========================================================================
+time: 43201.6148
+
+obj_var : Size=1, Index=None
+    Key  : Lower : Value         : Upper : Fixed : Stale : Domain
+    None :     0 : 13.6407877471 :  None : False : False : NonNegativeReals
+>>> m.display()
+Model unknown
+
+  Variables:
+    L : Size=105, Index=L_index
+        Key       : Lower  : Value            : Upper : Fixed : Stale : Domain
+           (1, 0) : 0.0001 :           0.0001 :   1.0 : False : False : NonNegativeReals
+         (1, 3.0) : 0.0001 :   0.141892045583 :   1.0 : False : False : NonNegativeReals
+         (1, 6.0) : 0.0001 :   0.237296900745 :   1.0 : False : False : NonNegativeReals
+         (1, 9.0) : 0.0001 :   0.305249475632 :   1.0 : False : False : NonNegativeReals
+        (1, 12.0) : 0.0001 :   0.355004136616 :   1.0 : False : False : NonNegativeReals
+        (1, 15.0) : 0.0001 :   0.392031857387 :   1.0 : False : False : NonNegativeReals
+        (1, 18.0) : 0.0001 :   0.419879724546 :   1.0 : False : False : NonNegativeReals
+        (1, 21.0) : 0.0001 :   0.440974803018 :   1.0 : False : False : NonNegativeReals
+        (1, 24.0) : 0.0001 :     0.4664092708 :   1.0 : False : False : NonNegativeReals
+        (1, 27.0) : 0.0001 :   0.520690587781 :   1.0 : False : False : NonNegativeReals
+        (1, 30.0) : 0.0001 :   0.575119832884 :   1.0 : False : False : NonNegativeReals
+        (1, 33.0) : 0.0001 :   0.629639159326 :   1.0 : False : False : NonNegativeReals
+        (1, 36.0) : 0.0001 :   0.684212257288 :   1.0 : False : False : NonNegativeReals
+        (1, 39.0) : 0.0001 :   0.730130035855 :   1.0 : False : False : NonNegativeReals
+        (1, 42.0) : 0.0001 :   0.753322902624 :   1.0 : False : False : NonNegativeReals
+        (1, 45.0) : 0.0001 :   0.754340814819 :   1.0 : False : False : NonNegativeReals
+        (1, 48.0) : 0.0001 :             0.75 :   1.0 : False : False : NonNegativeReals
+        (1, 51.0) : 0.0001 :             0.75 :   1.0 : False : False : NonNegativeReals
+        (1, 54.0) : 0.0001 :             0.75 :   1.0 : False : False : NonNegativeReals
+        (1, 57.0) : 0.0001 :             0.75 :   1.0 : False : False : NonNegativeReals
+          (1, 60) : 0.0001 :             0.75 :   1.0 : False : False : NonNegativeReals
+           (2, 0) : 0.0001 :           0.0001 :   1.0 : False : False : NonNegativeReals
+         (2, 3.0) : 0.0001 :   0.073415471333 :   1.0 : False : False : NonNegativeReals
+         (2, 6.0) : 0.0001 :    0.12488349885 :   1.0 : False : False : NonNegativeReals
+         (2, 9.0) : 0.0001 :   0.183663399718 :   1.0 : False : False : NonNegativeReals
+        (2, 12.0) : 0.0001 :   0.239323514174 :   1.0 : False : False : NonNegativeReals
+        (2, 15.0) : 0.0001 :    0.29001357913 :   1.0 : False : False : NonNegativeReals
+        (2, 18.0) : 0.0001 :   0.343900232076 :   1.0 : False : False : NonNegativeReals
+        (2, 21.0) : 0.0001 :   0.405341625473 :   1.0 : False : False : NonNegativeReals
+        (2, 24.0) : 0.0001 :     0.4664092708 :   1.0 : False : False : NonNegativeReals
+        (2, 27.0) : 0.0001 :   0.520690587781 :   1.0 : False : False : NonNegativeReals
+        (2, 30.0) : 0.0001 :   0.575119832884 :   1.0 : False : False : NonNegativeReals
+        (2, 33.0) : 0.0001 :   0.629639159326 :   1.0 : False : False : NonNegativeReals
+        (2, 36.0) : 0.0001 :   0.684212257288 :   1.0 : False : False : NonNegativeReals
+        (2, 39.0) : 0.0001 :   0.730130035855 :   1.0 : False : False : NonNegativeReals
+        (2, 42.0) : 0.0001 :   0.753322902624 :   1.0 : False : False : NonNegativeReals
+        (2, 45.0) : 0.0001 :   0.754340814819 :   1.0 : False : False : NonNegativeReals
+        (2, 48.0) : 0.0001 :             0.75 :   1.0 : False : False : NonNegativeReals
+        (2, 51.0) : 0.0001 :             0.75 :   1.0 : False : False : NonNegativeReals
+        (2, 54.0) : 0.0001 :             0.75 :   1.0 : False : False : NonNegativeReals
+        (2, 57.0) : 0.0001 :             0.75 :   1.0 : False : False : NonNegativeReals
+          (2, 60) : 0.0001 :             0.75 :   1.0 : False : False : NonNegativeReals
+           (3, 0) : 0.0001 :           0.0001 :   1.0 : False : False : NonNegativeReals
+         (3, 3.0) : 0.0001 :  0.0624936293221 :   1.0 : False : False : NonNegativeReals
+         (3, 6.0) : 0.0001 :    0.12322935732 :   1.0 : False : False : NonNegativeReals
+         (3, 9.0) : 0.0001 :   0.183663399718 :   1.0 : False : False : NonNegativeReals
+        (3, 12.0) : 0.0001 :   0.239323514174 :   1.0 : False : False : NonNegativeReals
+        (3, 15.0) : 0.0001 :    0.29001357913 :   1.0 : False : False : NonNegativeReals
+        (3, 18.0) : 0.0001 :   0.343900232076 :   1.0 : False : False : NonNegativeReals
+        (3, 21.0) : 0.0001 :   0.405341625473 :   1.0 : False : False : NonNegativeReals
+        (3, 24.0) : 0.0001 :     0.4664092708 :   1.0 : False : False : NonNegativeReals
+        (3, 27.0) : 0.0001 :   0.520690587781 :   1.0 : False : False : NonNegativeReals
+        (3, 30.0) : 0.0001 :   0.575119832884 :   1.0 : False : False : NonNegativeReals
+        (3, 33.0) : 0.0001 :   0.629639159326 :   1.0 : False : False : NonNegativeReals
+        (3, 36.0) : 0.0001 :   0.684212257288 :   1.0 : False : False : NonNegativeReals
+        (3, 39.0) : 0.0001 :   0.730130035855 :   1.0 : False : False : NonNegativeReals
+        (3, 42.0) : 0.0001 :   0.753322902624 :   1.0 : False : False : NonNegativeReals
+        (3, 45.0) : 0.0001 :   0.754340814819 :   1.0 : False : False : NonNegativeReals
+        (3, 48.0) : 0.0001 :             0.75 :   1.0 : False : False : NonNegativeReals
+        (3, 51.0) : 0.0001 :             0.75 :   1.0 : False : False : NonNegativeReals
+        (3, 54.0) : 0.0001 :             0.75 :   1.0 : False : False : NonNegativeReals
+        (3, 57.0) : 0.0001 :             0.75 :   1.0 : False : False : NonNegativeReals
+          (3, 60) : 0.0001 :             0.75 :   1.0 : False : False : NonNegativeReals
+           (4, 0) : 0.0001 :           0.0001 :   1.0 : False : False : NonNegativeReals
+         (4, 3.0) : 0.0001 :  0.0185165840647 :   1.0 : False : False : NonNegativeReals
+         (4, 6.0) : 0.0001 :    0.10135698955 :   1.0 : False : False : NonNegativeReals
+         (4, 9.0) : 0.0001 :   0.177560682086 :   1.0 : False : False : NonNegativeReals
+        (4, 12.0) : 0.0001 :   0.243920419037 :   1.0 : False : False : NonNegativeReals
+        (4, 15.0) : 0.0001 :   0.293422631826 :   1.0 : False : False : NonNegativeReals
+        (4, 18.0) : 0.0001 :   0.343900232076 :   1.0 : False : False : NonNegativeReals
+        (4, 21.0) : 0.0001 :   0.405341625473 :   1.0 : False : False : NonNegativeReals
+        (4, 24.0) : 0.0001 :     0.4664092708 :   1.0 : False : False : NonNegativeReals
+        (4, 27.0) : 0.0001 :   0.520690587781 :   1.0 : False : False : NonNegativeReals
+        (4, 30.0) : 0.0001 :   0.575119832884 :   1.0 : False : False : NonNegativeReals
+        (4, 33.0) : 0.0001 :   0.629639159326 :   1.0 : False : False : NonNegativeReals
+        (4, 36.0) : 0.0001 :   0.684212257288 :   1.0 : False : False : NonNegativeReals
+        (4, 39.0) : 0.0001 :   0.730130035855 :   1.0 : False : False : NonNegativeReals
+        (4, 42.0) : 0.0001 :   0.753322902624 :   1.0 : False : False : NonNegativeReals
+        (4, 45.0) : 0.0001 :   0.754340814819 :   1.0 : False : False : NonNegativeReals
+        (4, 48.0) : 0.0001 :             0.75 :   1.0 : False : False : NonNegativeReals
+        (4, 51.0) : 0.0001 :             0.75 :   1.0 : False : False : NonNegativeReals
+        (4, 54.0) : 0.0001 :             0.75 :   1.0 : False : False : NonNegativeReals
+        (4, 57.0) : 0.0001 :             0.75 :   1.0 : False : False : NonNegativeReals
+          (4, 60) : 0.0001 :             0.75 :   1.0 : False : False : NonNegativeReals
+           (5, 0) : 0.0001 :           0.0001 :   1.0 : False : False : NonNegativeReals
+         (5, 3.0) : 0.0001 : 0.00264065157664 :   1.0 : False : False : NonNegativeReals
+         (5, 6.0) : 0.0001 : 0.00929873668383 :   1.0 : False : False : NonNegativeReals
+         (5, 9.0) : 0.0001 :  0.0399335144812 :   1.0 : False : False : NonNegativeReals
+        (5, 12.0) : 0.0001 :   0.102876574153 :   1.0 : False : False : NonNegativeReals
+        (5, 15.0) : 0.0001 :   0.201499888979 :   1.0 : False : False : NonNegativeReals
+        (5, 18.0) : 0.0001 :   0.298996932097 :   1.0 : False : False : NonNegativeReals
+        (5, 21.0) : 0.0001 :    0.37520156374 :   1.0 : False : False : NonNegativeReals
+        (5, 24.0) : 0.0001 :   0.446517568939 :   1.0 : False : False : NonNegativeReals
+        (5, 27.0) : 0.0001 :   0.508009857933 :   1.0 : False : False : NonNegativeReals
+        (5, 30.0) : 0.0001 :   0.567689329212 :   1.0 : False : False : NonNegativeReals
+        (5, 33.0) : 0.0001 :   0.625878282601 :   1.0 : False : False : NonNegativeReals
+        (5, 36.0) : 0.0001 :   0.682796441438 :   1.0 : False : False : NonNegativeReals
+        (5, 39.0) : 0.0001 :   0.729547977978 :   1.0 : False : False : NonNegativeReals
+        (5, 42.0) : 0.0001 :   0.753947170081 :   1.0 : False : False : NonNegativeReals
+        (5, 45.0) : 0.0001 :   0.754844083691 :   1.0 : False : False : NonNegativeReals
+        (5, 48.0) : 0.0001 :             0.75 :   1.0 : False : False : NonNegativeReals
+        (5, 51.0) : 0.0001 :             0.75 :   1.0 : False : False : NonNegativeReals
+        (5, 54.0) : 0.0001 :             0.75 :   1.0 : False : False : NonNegativeReals
+        (5, 57.0) : 0.0001 :             0.75 :   1.0 : False : False : NonNegativeReals
+          (5, 60) : 0.0001 :             0.75 :   1.0 : False : False : NonNegativeReals
+    delL : Size=105, Index=delL_index
+        Key       : Lower  : Value            : Upper : Fixed : Stale : Domain
+           (1, 0) : 0.0001 :           0.0001 :   1.0 : False : False : NonNegativeReals
+         (1, 3.0) : 0.0001 :   0.141892045583 :   1.0 : False : False : NonNegativeReals
+         (1, 6.0) : 0.0001 :   0.237296900745 :   1.0 : False : False : NonNegativeReals
+         (1, 9.0) : 0.0001 :   0.305249475632 :   1.0 : False : False : NonNegativeReals
+        (1, 12.0) : 0.0001 :   0.355004136616 :   1.0 : False : False : NonNegativeReals
+        (1, 15.0) : 0.0001 :   0.392031857387 :   1.0 : False : False : NonNegativeReals
+        (1, 18.0) : 0.0001 :   0.419879724546 :   1.0 : False : False : NonNegativeReals
+        (1, 21.0) : 0.0001 :   0.440974803018 :   1.0 : False : False : NonNegativeReals
+        (1, 24.0) : 0.0001 :     0.4664092708 :   1.0 : False : False : NonNegativeReals
+        (1, 27.0) : 0.0001 :   0.520690587781 :   1.0 : False : False : NonNegativeReals
+        (1, 30.0) : 0.0001 :   0.575119832884 :   1.0 : False : False : NonNegativeReals
+        (1, 33.0) : 0.0001 :              0.6 :   1.0 : False : False : NonNegativeReals
+        (1, 36.0) : 0.0001 :              0.6 :   1.0 : False : False : NonNegativeReals
+        (1, 39.0) : 0.0001 :              0.6 :   1.0 : False : False : NonNegativeReals
+        (1, 42.0) : 0.0001 :              0.6 :   1.0 : False : False : NonNegativeReals
+        (1, 45.0) : 0.0001 :              0.6 :   1.0 : False : False : NonNegativeReals
+        (1, 48.0) : 0.0001 :              0.6 :   1.0 : False : False : NonNegativeReals
+        (1, 51.0) : 0.0001 :              0.6 :   1.0 : False : False : NonNegativeReals
+        (1, 54.0) : 0.0001 :              0.6 :   1.0 : False : False : NonNegativeReals
+        (1, 57.0) : 0.0001 :              0.6 :   1.0 : False : False : NonNegativeReals
+          (1, 60) : 0.0001 :              0.6 :   1.0 : False : False : NonNegativeReals
+           (2, 0) : 0.0001 :           0.0001 :   1.0 : False : False : NonNegativeReals
+         (2, 3.0) : 0.0001 :   0.073415471333 :   1.0 : False : False : NonNegativeReals
+         (2, 6.0) : 0.0001 :    0.12488349885 :   1.0 : False : False : NonNegativeReals
+         (2, 9.0) : 0.0001 :   0.183663399718 :   1.0 : False : False : NonNegativeReals
+        (2, 12.0) : 0.0001 :   0.239323514174 :   1.0 : False : False : NonNegativeReals
+        (2, 15.0) : 0.0001 :    0.29001357913 :   1.0 : False : False : NonNegativeReals
+        (2, 18.0) : 0.0001 :   0.343900232076 :   1.0 : False : False : NonNegativeReals
+        (2, 21.0) : 0.0001 :   0.405341625473 :   1.0 : False : False : NonNegativeReals
+        (2, 24.0) : 0.0001 :     0.4664092708 :   1.0 : False : False : NonNegativeReals
+        (2, 27.0) : 0.0001 :              0.5 :   1.0 : False : False : NonNegativeReals
+        (2, 30.0) : 0.0001 :              0.5 :   1.0 : False : False : NonNegativeReals
+        (2, 33.0) : 0.0001 :              0.5 :   1.0 : False : False : NonNegativeReals
+        (2, 36.0) : 0.0001 :              0.5 :   1.0 : False : False : NonNegativeReals
+        (2, 39.0) : 0.0001 :              0.5 :   1.0 : False : False : NonNegativeReals
+        (2, 42.0) : 0.0001 :              0.5 :   1.0 : False : False : NonNegativeReals
+        (2, 45.0) : 0.0001 :              0.5 :   1.0 : False : False : NonNegativeReals
+        (2, 48.0) : 0.0001 :              0.5 :   1.0 : False : False : NonNegativeReals
+        (2, 51.0) : 0.0001 :              0.5 :   1.0 : False : False : NonNegativeReals
+        (2, 54.0) : 0.0001 :              0.5 :   1.0 : False : False : NonNegativeReals
+        (2, 57.0) : 0.0001 :              0.5 :   1.0 : False : False : NonNegativeReals
+          (2, 60) : 0.0001 :              0.5 :   1.0 : False : False : NonNegativeReals
+           (3, 0) : 0.0001 :           0.0001 :   1.0 : False : False : NonNegativeReals
+         (3, 3.0) : 0.0001 :  0.0624936293221 :   1.0 : False : False : NonNegativeReals
+         (3, 6.0) : 0.0001 :    0.12322935732 :   1.0 : False : False : NonNegativeReals
+         (3, 9.0) : 0.0001 :   0.183663399718 :   1.0 : False : False : NonNegativeReals
+        (3, 12.0) : 0.0001 :   0.239323514174 :   1.0 : False : False : NonNegativeReals
+        (3, 15.0) : 0.0001 :    0.29001357913 :   1.0 : False : False : NonNegativeReals
+        (3, 18.0) : 0.0001 :   0.343900232076 :   1.0 : False : False : NonNegativeReals
+        (3, 21.0) : 0.0001 :   0.405341625473 :   1.0 : False : False : NonNegativeReals
+        (3, 24.0) : 0.0001 :     0.4664092708 :   1.0 : False : False : NonNegativeReals
+        (3, 27.0) : 0.0001 :              0.5 :   1.0 : False : False : NonNegativeReals
+        (3, 30.0) : 0.0001 :              0.5 :   1.0 : False : False : NonNegativeReals
+        (3, 33.0) : 0.0001 :              0.5 :   1.0 : False : False : NonNegativeReals
+        (3, 36.0) : 0.0001 :              0.5 :   1.0 : False : False : NonNegativeReals
+        (3, 39.0) : 0.0001 :              0.5 :   1.0 : False : False : NonNegativeReals
+        (3, 42.0) : 0.0001 :              0.5 :   1.0 : False : False : NonNegativeReals
+        (3, 45.0) : 0.0001 :              0.5 :   1.0 : False : False : NonNegativeReals
+        (3, 48.0) : 0.0001 :              0.5 :   1.0 : False : False : NonNegativeReals
+        (3, 51.0) : 0.0001 :              0.5 :   1.0 : False : False : NonNegativeReals
+        (3, 54.0) : 0.0001 :              0.5 :   1.0 : False : False : NonNegativeReals
+        (3, 57.0) : 0.0001 :              0.5 :   1.0 : False : False : NonNegativeReals
+          (3, 60) : 0.0001 :              0.5 :   1.0 : False : False : NonNegativeReals
+           (4, 0) : 0.0001 :           0.0001 :   1.0 : False : False : NonNegativeReals
+         (4, 3.0) : 0.0001 :  0.0185165840647 :   1.0 : False : False : NonNegativeReals
+         (4, 6.0) : 0.0001 :    0.10135698955 :   1.0 : False : False : NonNegativeReals
+         (4, 9.0) : 0.0001 :   0.177560682086 :   1.0 : False : False : NonNegativeReals
+        (4, 12.0) : 0.0001 :   0.243920419037 :   1.0 : False : False : NonNegativeReals
+        (4, 15.0) : 0.0001 :   0.293422631826 :   1.0 : False : False : NonNegativeReals
+        (4, 18.0) : 0.0001 :   0.343900232076 :   1.0 : False : False : NonNegativeReals
+        (4, 21.0) : 0.0001 :   0.405341625473 :   1.0 : False : False : NonNegativeReals
+        (4, 24.0) : 0.0001 :     0.4664092708 :   1.0 : False : False : NonNegativeReals
+        (4, 27.0) : 0.0001 :   0.512680729848 :   1.0 : False : False : NonNegativeReals
+        (4, 30.0) : 0.0001 :   0.507430503672 :   1.0 : False : False : NonNegativeReals
+        (4, 33.0) : 0.0001 :   0.503760876725 :   1.0 : False : False : NonNegativeReals
+        (4, 36.0) : 0.0001 :   0.501415815849 :   1.0 : False : False : NonNegativeReals
+        (4, 39.0) : 0.0001 :   0.500582057877 :   1.0 : False : False : NonNegativeReals
+        (4, 42.0) : 0.0001 :   0.499375732543 :   1.0 : False : False : NonNegativeReals
+        (4, 45.0) : 0.0001 :   0.499496731129 :   1.0 : False : False : NonNegativeReals
+        (4, 48.0) : 0.0001 :              0.5 :   1.0 : False : False : NonNegativeReals
+        (4, 51.0) : 0.0001 :              0.5 :   1.0 : False : False : NonNegativeReals
+        (4, 54.0) : 0.0001 :              0.5 :   1.0 : False : False : NonNegativeReals
+        (4, 57.0) : 0.0001 :              0.5 :   1.0 : False : False : NonNegativeReals
+          (4, 60) : 0.0001 :              0.5 :   1.0 : False : False : NonNegativeReals
+           (5, 0) : 0.0001 :           0.0001 :   1.0 : False : False : NonNegativeReals
+         (5, 3.0) : 0.0001 : 0.00264065157664 :   1.0 : False : False : NonNegativeReals
+         (5, 6.0) : 0.0001 : 0.00929873668383 :   1.0 : False : False : NonNegativeReals
+         (5, 9.0) : 0.0001 :  0.0399335144812 :   1.0 : False : False : NonNegativeReals
+        (5, 12.0) : 0.0001 :   0.102876574153 :   1.0 : False : False : NonNegativeReals
+        (5, 15.0) : 0.0001 :   0.201499888979 :   1.0 : False : False : NonNegativeReals
+        (5, 18.0) : 0.0001 :   0.298996932097 :   1.0 : False : False : NonNegativeReals
+        (5, 21.0) : 0.0001 :    0.37520156374 :   1.0 : False : False : NonNegativeReals
+        (5, 24.0) : 0.0001 :   0.446517568939 :   1.0 : False : False : NonNegativeReals
+        (5, 27.0) : 0.0001 :   0.508009857933 :   1.0 : False : False : NonNegativeReals
+        (5, 30.0) : 0.0001 :   0.567689329212 :   1.0 : False : False : NonNegativeReals
+        (5, 33.0) : 0.0001 :   0.625878282601 :   1.0 : False : False : NonNegativeReals
+        (5, 36.0) : 0.0001 :   0.682796441438 :   1.0 : False : False : NonNegativeReals
+        (5, 39.0) : 0.0001 :   0.729547977978 :   1.0 : False : False : NonNegativeReals
+        (5, 42.0) : 0.0001 :   0.753947170081 :   1.0 : False : False : NonNegativeReals
+        (5, 45.0) : 0.0001 :   0.754844083691 :   1.0 : False : False : NonNegativeReals
+        (5, 48.0) : 0.0001 :             0.75 :   1.0 : False : False : NonNegativeReals
+        (5, 51.0) : 0.0001 :             0.75 :   1.0 : False : False : NonNegativeReals
+        (5, 54.0) : 0.0001 :             0.75 :   1.0 : False : False : NonNegativeReals
+        (5, 57.0) : 0.0001 :             0.75 :   1.0 : False : False : NonNegativeReals
+          (5, 60) : 0.0001 :             0.75 :   1.0 : False : False : NonNegativeReals
+    F : Size=105, Index=F_index
+        Key       : Lower : Value             : Upper : Fixed : Stale : Domain
+           (1, 0) :  None :           0.00112 :  None : False : False :  Reals
+         (1, 3.0) :  None :   0.0527359848057 :  None : False : False :  Reals
+         (1, 6.0) :  None :   0.0681983816128 :  None : False : False :  Reals
+         (1, 9.0) :  None :   0.0773491417043 :  None : False : False :  Reals
+        (1, 12.0) :  None :   0.0834151130053 :  None : False : False :  Reals
+        (1, 15.0) :  None :   0.0876574264098 :  None : False : False :  Reals
+        (1, 18.0) :  None :   0.0907173776137 :  None : False : False :  Reals
+        (1, 21.0) :  None :   0.0929683071759 :  None : False : False :  Reals
+        (1, 24.0) :  None :   0.0915218440726 :  None : False : False :  Reals
+        (1, 27.0) :  None :   0.0819062276731 :  None : False : False :  Reals
+        (1, 30.0) :  None :   0.0818569182992 :  None : False : False :  Reals
+        (1, 33.0) :  None :    0.081826891186 :  None : False : False :  Reals
+        (1, 36.0) :  None :    0.081808967346 :  None : False : False :  Reals
+        (1, 39.0) :  None :    0.084694073811 :  None : False : False :  Reals
+        (1, 42.0) :  None :   0.0722690444104 :  None : False : False :  Reals
+        (1, 45.0) :  None :   0.0596606959348 :  None : False : False :  Reals
+        (1, 48.0) :  None :   0.0415377299084 :  None : False : False :  Reals
+        (1, 51.0) :  None :   0.0317364092231 :  None : False : False :  Reals
+        (1, 54.0) :  None :   0.0458785448168 :  None : False : False :  Reals
+        (1, 57.0) :  None :   0.0579431353747 :  None : False : False :  Reals
+          (1, 60) :  None :   0.0438009997462 :  None : False : False :  Reals
+           (2, 0) :  None :  0.00135939766063 :  None : False : False :  Reals
+         (2, 3.0) :  None :   0.0282974943614 :  None : False : False :  Reals
+         (2, 6.0) :  None :   0.0510423724404 :  None : False : False :  Reals
+         (2, 9.0) :  None :   0.0577558414149 :  None : False : False :  Reals
+        (2, 12.0) :  None :   0.0648617415201 :  None : False : False :  Reals
+        (2, 15.0) :  None :   0.0707607380911 :  None : False : False :  Reals
+        (2, 18.0) :  None :    0.072755159965 :  None : False : False :  Reals
+        (2, 21.0) :  None :   0.0724878427104 :  None : False : False :  Reals
+        (2, 24.0) :  None :   0.0711659622968 :  None : False : False :  Reals
+        (2, 27.0) :  None :   0.0638124553461 :  None : False : False :  Reals
+        (2, 30.0) :  None :   0.0637138365985 :  None : False : False :  Reals
+        (2, 33.0) :  None :   0.0636537823719 :  None : False : False :  Reals
+        (2, 36.0) :  None :    0.063617934692 :  None : False : False :  Reals
+        (2, 39.0) :  None :    0.069388147622 :  None : False : False :  Reals
+        (2, 42.0) :  None :   0.0645380888207 :  None : False : False :  Reals
+        (2, 45.0) :  None :   0.0593213918696 :  None : False : False :  Reals
+        (2, 48.0) :  None :   0.0429846681816 :  None : False : False :  Reals
+        (2, 51.0) :  None :   0.0317364092231 :  None : False : False :  Reals
+        (2, 54.0) :  None :   0.0458785448168 :  None : False : False :  Reals
+        (2, 57.0) :  None :   0.0579431353747 :  None : False : False :  Reals
+          (2, 60) :  None :   0.0438009997462 :  None : False : False :  Reals
+           (3, 0) :  None :            0.0009 :  None : False : False :  Reals
+         (3, 3.0) :  None :  0.00749961792071 :  None : False : False :  Reals
+         (3, 6.0) :  None :   0.0307971297743 :  None : False : False :  Reals
+         (3, 9.0) :  None :   0.0376111606156 :  None : False : False :  Reals
+        (3, 12.0) :  None :   0.0463083700349 :  None : False : False :  Reals
+        (3, 15.0) :  None :   0.0538640497724 :  None : False : False :  Reals
+        (3, 18.0) :  None :   0.0547929423164 :  None : False : False :  Reals
+        (3, 21.0) :  None :   0.0520073782449 :  None : False : False :  Reals
+        (3, 24.0) :  None :   0.0508100805209 :  None : False : False :  Reals
+        (3, 27.0) :  None :   0.0457186830192 :  None : False : False :  Reals
+        (3, 30.0) :  None :   0.0455707548977 :  None : False : False :  Reals
+        (3, 33.0) :  None :   0.0454806735579 :  None : False : False :  Reals
+        (3, 36.0) :  None :   0.0454269020381 :  None : False : False :  Reals
+        (3, 39.0) :  None :    0.054082221433 :  None : False : False :  Reals
+        (3, 42.0) :  None :   0.0568071332311 :  None : False : False :  Reals
+        (3, 45.0) :  None :   0.0589820878044 :  None : False : False :  Reals
+        (3, 48.0) :  None :   0.0444316064547 :  None : False : False :  Reals
+        (3, 51.0) :  None :   0.0317364092231 :  None : False : False :  Reals
+        (3, 54.0) :  None :   0.0458785448168 :  None : False : False :  Reals
+        (3, 57.0) :  None :   0.0579431353747 :  None : False : False :  Reals
+          (3, 60) :  None :   0.0438009997462 :  None : False : False :  Reals
+           (4, 0) :  None :            0.0003 :  None : False : False :  Reals
+         (4, 3.0) :  None :  0.00136075656581 :  None : False : False :  Reals
+         (4, 6.0) :  None :  0.00318366127923 :  None : False : False :  Reals
+         (4, 9.0) :  None :   0.0122099297701 :  None : False : False :  Reals
+        (4, 12.0) :  None :    0.024188457718 :  None : False : False :  Reals
+        (4, 15.0) :  None :   0.0373633121761 :  None : False : False :  Reals
+        (4, 18.0) :  None :   0.0379670755664 :  None : False : False :  Reals
+        (4, 21.0) :  None :   0.0315269137794 :  None : False : False :  Reals
+        (4, 24.0) :  None :    0.030454198745 :  None : False : False :  Reals
+        (4, 27.0) :  None :   0.0276249106922 :  None : False : False :  Reals
+        (4, 30.0) :  None :   0.0274276731969 :  None : False : False :  Reals
+        (4, 33.0) :  None :   0.0273075647439 :  None : False : False :  Reals
+        (4, 36.0) :  None :   0.0272358693841 :  None : False : False :  Reals
+        (4, 39.0) :  None :    0.038776295244 :  None : False : False :  Reals
+        (4, 42.0) :  None :   0.0490761776414 :  None : False : False :  Reals
+        (4, 45.0) :  None :   0.0586427837391 :  None : False : False :  Reals
+        (4, 48.0) :  None :   0.0458785447278 :  None : False : False :  Reals
+        (4, 51.0) :  None :   0.0317364092231 :  None : False : False :  Reals
+        (4, 54.0) :  None :   0.0458785448168 :  None : False : False :  Reals
+        (4, 57.0) :  None :   0.0579431353747 :  None : False : False :  Reals
+          (4, 60) :  None :   0.0438009997462 :  None : False : False :  Reals
+           (5, 0) :  None :            0.0003 :  None : False : False :  Reals
+         (5, 3.0) :  None : 0.000513872706929 :  None : False : False :  Reals
+         (5, 6.0) :  None : 0.000964299576833 :  None : False : False :  Reals
+         (5, 9.0) :  None :  0.00199833717102 :  None : False : False :  Reals
+        (5, 12.0) :  None :  0.00320743782729 :  None : False : False :  Reals
+        (5, 15.0) :  None :  0.00448887390091 :  None : False : False :  Reals
+        (5, 18.0) :  None :  0.00546806119377 :  None : False : False :  Reals
+        (5, 21.0) :  None :  0.00612536989851 :  None : False : False :  Reals
+        (5, 24.0) :  None :  0.00668219701215 :  None : False : False :  Reals
+        (5, 27.0) :  None :  0.00712748102743 :  None : False : False :  Reals
+        (5, 30.0) :  None :   0.0075345161041 :  None : False : False :  Reals
+        (5, 33.0) :  None :  0.00791124694751 :  None : False : False :  Reals
+        (5, 36.0) :  None :  0.00826314977151 :  None : False : False :  Reals
+        (5, 39.0) :  None :   0.0231924497309 :  None : False : False :  Reals
+        (5, 42.0) :  None :   0.0409431136071 :  None : False : False :  Reals
+        (5, 45.0) :  None :   0.0583438125358 :  None : False : False :  Reals
+        (5, 48.0) :  None :   0.0474932392914 :  None : False : False :  Reals
+        (5, 51.0) :  None :   0.0317364092231 :  None : False : False :  Reals
+        (5, 54.0) :  None :   0.0458785448168 :  None : False : False :  Reals
+        (5, 57.0) :  None :   0.0579431353747 :  None : False : False :  Reals
+          (5, 60) :  None :   0.0438009997462 :  None : False : False :  Reals
+    F0 : Size=21, Index=t
+        Key  : Lower : Value           : Upper : Fixed : Stale : Domain
+           0 :  None :            0.08 :  None : False : False :  Reals
+         3.0 :  None :             0.1 :  None : False : False :  Reals
+         6.0 :  None :             0.1 :  None : False : False :  Reals
+         9.0 :  None :             0.1 :  None : False : False :  Reals
+        12.0 :  None :             0.1 :  None : False : False :  Reals
+        15.0 :  None :             0.1 :  None : False : False :  Reals
+        18.0 :  None :             0.1 :  None : False : False :  Reals
+        21.0 :  None :             0.1 :  None : False : False :  Reals
+        24.0 :  None :             0.1 :  None : False : False :  Reals
+        27.0 :  None :             0.1 :  None : False : False :  Reals
+        30.0 :  None :             0.1 :  None : False : False :  Reals
+        33.0 :  None :             0.1 :  None : False : False :  Reals
+        36.0 :  None :             0.1 :  None : False : False :  Reals
+        39.0 :  None :             0.1 :  None : False : False :  Reals
+        42.0 :  None :            0.08 :  None : False : False :  Reals
+        45.0 :  None :            0.06 :  None : False : False :  Reals
+        48.0 :  None : 0.0400907916353 :  None : False : False :  Reals
+        51.0 :  None : 0.0317364092231 :  None : False : False :  Reals
+        54.0 :  None : 0.0458785448168 :  None : False : False :  Reals
+        57.0 :  None : 0.0579431353747 :  None : False : False :  Reals
+          60 :  None : 0.0438009997462 :  None : False : False :  Reals
+    w : Size=105, Index=w_index
+        Key       : Lower : Value          : Upper : Fixed : Stale : Domain
+           (1, 0) :   0.1 :            0.8 :     1 : False : False :  Reals
+         (1, 3.0) :   0.1 :            1.0 :     1 : False : False :  Reals
+         (1, 6.0) :   0.1 :            1.0 :     1 : False : False :  Reals
+         (1, 9.0) :   0.1 :            1.0 :     1 : False : False :  Reals
+        (1, 12.0) :   0.1 :            1.0 :     1 : False : False :  Reals
+        (1, 15.0) :   0.1 :            1.0 :     1 : False : False :  Reals
+        (1, 18.0) :   0.1 :            1.0 :     1 : False : False :  Reals
+        (1, 21.0) :   0.1 :            1.0 :     1 : False : False :  Reals
+        (1, 24.0) :   0.1 : 0.957223030766 :     1 : False : False :  Reals
+        (1, 27.0) :   0.1 : 0.810772489834 :     1 : False : False :  Reals
+        (1, 30.0) :   0.1 : 0.770988992019 :     1 : False : False :  Reals
+        (1, 33.0) :   0.1 : 0.754557589475 :     1 : False : False :  Reals
+        (1, 36.0) :   0.1 : 0.754392302714 :     1 : False : False :  Reals
+        (1, 39.0) :   0.1 : 0.780996993952 :     1 : False : False :  Reals
+        (1, 42.0) :   0.1 : 0.666420956606 :     1 : False : False :  Reals
+        (1, 45.0) :   0.1 : 0.550154466863 :     1 : False : False :  Reals
+        (1, 48.0) :   0.1 : 0.383035559759 :     1 : False : False :  Reals
+        (1, 51.0) :   0.1 : 0.292653714921 :     1 : False : False :  Reals
+        (1, 54.0) :   0.1 : 0.423063385641 :     1 : False : False :  Reals
+        (1, 57.0) :   0.1 : 0.534315683969 :     1 : False : False :  Reals
+          (1, 60) :   0.1 : 0.403906086895 :     1 : False : False :  Reals
+           (2, 0) :   0.1 : 0.679698830314 :     1 : False : False :  Reals
+         (2, 3.0) :   0.1 : 0.522184678917 :     1 : False : False :  Reals
+         (2, 6.0) :   0.1 : 0.722184678917 :     1 : False : False :  Reals
+         (2, 9.0) :   0.1 : 0.673836625761 :     1 : False : False :  Reals
+        (2, 12.0) :   0.1 :  0.66292733045 :     1 : False : False :  Reals
+        (2, 15.0) :   0.1 : 0.656981576804 :     1 : False : False :  Reals
+        (2, 18.0) :   0.1 : 0.620322546688 :     1 : False : False :  Reals
+        (2, 21.0) :   0.1 : 0.569278231686 :     1 : False : False :  Reals
+        (2, 24.0) :   0.1 :  0.52102521392 :     1 : False : False :  Reals
+        (2, 27.0) :   0.1 : 0.451222203288 :     1 : False : False :  Reals
+        (2, 30.0) :   0.1 : 0.450524652743 :     1 : False : False :  Reals
+        (2, 33.0) :   0.1 : 0.450100138975 :     1 : False : False :  Reals
+        (2, 36.0) :   0.1 : 0.449846721948 :     1 : False : False :  Reals
+        (2, 39.0) :   0.1 : 0.490648297727 :     1 : False : False :  Reals
+        (2, 42.0) :   0.1 : 0.456353201904 :     1 : False : False :  Reals
+        (2, 45.0) :   0.1 : 0.419465582669 :     1 : False : False :  Reals
+        (2, 48.0) :   0.1 : 0.303947504675 :     1 : False : False :  Reals
+        (2, 51.0) :   0.1 : 0.224410295756 :     1 : False : False :  Reals
+        (2, 54.0) :   0.1 : 0.324410192736 :     1 : False : False :  Reals
+        (2, 57.0) :   0.1 : 0.409719880914 :     1 : False : False :  Reals
+          (2, 60) :   0.1 : 0.309719833793 :     1 : False : False :  Reals
+           (3, 0) :   0.1 :            0.3 :     1 : False : False :  Reals
+         (3, 3.0) :   0.1 :            0.1 :     1 : False : False :  Reals
+         (3, 6.0) :   0.1 : 0.292436717764 :     1 : False : False :  Reals
+         (3, 9.0) :   0.1 : 0.292539264767 :     1 : False : False :  Reals
+        (3, 12.0) :   0.1 :   0.3155335556 :     1 : False : False :  Reals
+        (3, 15.0) :   0.1 : 0.333402290968 :     1 : False : False :  Reals
+        (3, 18.0) :   0.1 : 0.311449137317 :     1 : False : False :  Reals
+        (3, 21.0) :   0.1 : 0.272290885021 :     1 : False : False :  Reals
+        (3, 24.0) :   0.1 : 0.247996209174 :     1 : False : False :  Reals
+        (3, 27.0) :   0.1 : 0.215519938657 :     1 : False : False :  Reals
+        (3, 30.0) :   0.1 : 0.214822584121 :     1 : False : False :  Reals
+        (3, 33.0) :   0.1 : 0.214397943818 :     1 : False : False :  Reals
+        (3, 36.0) :   0.1 : 0.214144469889 :     1 : False : False :  Reals
+        (3, 39.0) :   0.1 : 0.254946036159 :     1 : False : False :  Reals
+        (3, 42.0) :   0.1 : 0.267791394141 :     1 : False : False :  Reals
+        (3, 45.0) :   0.1 : 0.278044228119 :     1 : False : False :  Reals
+        (3, 48.0) :   0.1 : 0.209452601947 :     1 : False : False :  Reals
+        (3, 51.0) :   0.1 : 0.149606867234 :     1 : False : False :  Reals
+        (3, 54.0) :   0.1 : 0.216273533177 :     1 : False : False :  Reals
+        (3, 57.0) :   0.1 : 0.273146562633 :     1 : False : False :  Reals
+          (3, 60) :   0.1 :  0.20647989292 :     1 : False : False :  Reals
+           (4, 0) :   0.1 :            0.3 :     1 : False : False :  Reals
+         (4, 3.0) :   0.1 :            0.1 :     1 : False : False :  Reals
+         (4, 6.0) :   0.1 :            0.1 :     1 : False : False :  Reals
+         (4, 9.0) :   0.1 : 0.289760887677 :     1 : False : False :  Reals
+        (4, 12.0) :   0.1 : 0.489760887677 :     1 : False : False :  Reals
+        (4, 15.0) :   0.1 : 0.689760887677 :     1 : False : False :  Reals
+        (4, 18.0) :   0.1 : 0.647427155963 :     1 : False : False :  Reals
+        (4, 21.0) :   0.1 : 0.495188848095 :     1 : False : False :  Reals
+        (4, 24.0) :   0.1 : 0.445926816778 :     1 : False : False :  Reals
+        (4, 27.0) :   0.1 : 0.385813470002 :     1 : False : False :  Reals
+        (4, 30.0) :   0.1 : 0.385035417986 :     1 : False : False :  Reals
+        (4, 33.0) :   0.1 : 0.384743022297 :     1 : False : False :  Reals
+        (4, 36.0) :   0.1 : 0.384629180171 :     1 : False : False :  Reals
+        (4, 39.0) :   0.1 : 0.548060709422 :     1 : False : False :  Reals
+        (4, 42.0) :   0.1 :  0.69447562402 :     1 : False : False :  Reals
+        (4, 45.0) :   0.1 : 0.829751881186 :     1 : False : False :  Reals
+        (4, 48.0) :   0.1 : 0.648820601198 :     1 : False : False :  Reals
+        (4, 51.0) :   0.1 : 0.448820601198 :     1 : False : False :  Reals
+        (4, 54.0) :   0.1 : 0.648820601206 :     1 : False : False :  Reals
+        (4, 57.0) :   0.1 : 0.819439678861 :     1 : False : False :  Reals
+          (4, 60) :   0.1 : 0.619439678861 :     1 : False : False :  Reals
+           (5, 0) :   0.1 :            0.3 :     1 : False : False :  Reals
+         (5, 3.0) :   0.1 :            0.1 :     1 : False : False :  Reals
+         (5, 6.0) :   0.1 :            0.1 :     1 : False : False :  Reals
+         (5, 9.0) :   0.1 :            0.1 :     1 : False : False :  Reals
+        (5, 12.0) :   0.1 :            0.1 :     1 : False : False :  Reals
+        (5, 15.0) :   0.1 :            0.1 :     1 : False : False :  Reals
+        (5, 18.0) :   0.1 :            0.1 :     1 : False : False :  Reals
+        (5, 21.0) :   0.1 :            0.1 :     1 : False : False :  Reals
+        (5, 24.0) :   0.1 :            0.1 :     1 : False : False :  Reals
+        (5, 27.0) :   0.1 :            0.1 :     1 : False : False :  Reals
+        (5, 30.0) :   0.1 :            0.1 :     1 : False : False :  Reals
+        (5, 33.0) :   0.1 :            0.1 :     1 : False : False :  Reals
+        (5, 36.0) :   0.1 :            0.1 :     1 : False : False :  Reals
+        (5, 39.0) :   0.1 : 0.271531173333 :     1 : False : False :  Reals
+        (5, 42.0) :   0.1 : 0.471531173333 :     1 : False : False :  Reals
+        (5, 45.0) :   0.1 : 0.671531173333 :     1 : False : False :  Reals
+        (5, 48.0) :   0.1 : 0.548404689669 :     1 : False : False :  Reals
+        (5, 51.0) :   0.1 : 0.366460475234 :     1 : False : False :  Reals
+        (5, 54.0) :   0.1 : 0.529759806038 :     1 : False : False :  Reals
+        (5, 57.0) :   0.1 : 0.669069695779 :     1 : False : False :  Reals
+          (5, 60) :   0.1 : 0.505770379848 :     1 : False : False :  Reals
+    w0 : Size=21, Index=t
+        Key  : Lower : Value          : Upper : Fixed : Stale : Domain
+           0 :   0.1 :            0.8 :     1 : False : False :  Reals
+         3.0 :   0.1 :            1.0 :     1 : False : False :  Reals
+         6.0 :   0.1 :            1.0 :     1 : False : False :  Reals
+         9.0 :   0.1 :            1.0 :     1 : False : False :  Reals
+        12.0 :   0.1 :            1.0 :     1 : False : False :  Reals
+        15.0 :   0.1 :            1.0 :     1 : False : False :  Reals
+        18.0 :   0.1 :            1.0 :     1 : False : False :  Reals
+        21.0 :   0.1 :            1.0 :     1 : False : False :  Reals
+        24.0 :   0.1 :            1.0 :     1 : False : False :  Reals
+        27.0 :   0.1 :            1.0 :     1 : False : False :  Reals
+        30.0 :   0.1 :            1.0 :     1 : False : False :  Reals
+        33.0 :   0.1 :            1.0 :     1 : False : False :  Reals
+        36.0 :   0.1 :            1.0 :     1 : False : False :  Reals
+        39.0 :   0.1 :            1.0 :     1 : False : False :  Reals
+        42.0 :   0.1 :            0.8 :     1 : False : False :  Reals
+        45.0 :   0.1 :            0.6 :     1 : False : False :  Reals
+        48.0 :   0.1 : 0.400907916353 :     1 : False : False :  Reals
+        51.0 :   0.1 : 0.317364092231 :     1 : False : False :  Reals
+        54.0 :   0.1 : 0.458785448168 :     1 : False : False :  Reals
+        57.0 :   0.1 : 0.579431353747 :     1 : False : False :  Reals
+          60 :   0.1 : 0.438009997462 :     1 : False : False :  Reals
+    dLdt : Size=105, Index=dLdt_index
+        Key       : Lower : Value              : Upper : Fixed : Stale : Domain
+           (1, 0) :  None :            0.07888 :  None : False : False :  Reals
+         (1, 3.0) :  None :    0.0472640151943 :  None : False : False :  Reals
+         (1, 6.0) :  None :    0.0318016183872 :  None : False : False :  Reals
+         (1, 9.0) :  None :    0.0226508582957 :  None : False : False :  Reals
+        (1, 12.0) :  None :    0.0165848869947 :  None : False : False :  Reals
+        (1, 15.0) :  None :    0.0123425735902 :  None : False : False :  Reals
+        (1, 18.0) :  None :   0.00928262238632 :  None : False : False :  Reals
+        (1, 21.0) :  None :   0.00703169282407 :  None : False : False :  Reals
+        (1, 24.0) :  None :   0.00847815592736 :  None : False : False :  Reals
+        (1, 27.0) :  None :    0.0180937723269 :  None : False : False :  Reals
+        (1, 30.0) :  None :    0.0181430817008 :  None : False : False :  Reals
+        (1, 33.0) :  None :     0.018173108814 :  None : False : False :  Reals
+        (1, 36.0) :  None :     0.018191032654 :  None : False : False :  Reals
+        (1, 39.0) :  None :     0.015305926189 :  None : False : False :  Reals
+        (1, 42.0) :  None :   0.00773095558965 :  None : False : False :  Reals
+        (1, 45.0) :  None :  0.000339304065217 :  None : False : False :  Reals
+        (1, 48.0) :  None :  -0.00144693827314 :  None : False : False :  Reals
+        (1, 51.0) :  None :                0.0 :  None : False : False :  Reals
+        (1, 54.0) :  None :                0.0 :  None : False : False :  Reals
+        (1, 57.0) :  None :                0.0 :  None : False : False :  Reals
+          (1, 60) :  None :                0.0 :  None : False : False :  Reals
+           (2, 0) :  None : -0.000239397660628 :  None : False : False :  Reals
+         (2, 3.0) :  None :    0.0244384904443 :  None : False : False :  Reals
+         (2, 6.0) :  None :    0.0171560091724 :  None : False : False :  Reals
+         (2, 9.0) :  None :    0.0195933002894 :  None : False : False :  Reals
+        (2, 12.0) :  None :    0.0185533714852 :  None : False : False :  Reals
+        (2, 15.0) :  None :    0.0168966883187 :  None : False : False :  Reals
+        (2, 18.0) :  None :    0.0179622176486 :  None : False : False :  Reals
+        (2, 21.0) :  None :    0.0204804644655 :  None : False : False :  Reals
+        (2, 24.0) :  None :    0.0203558817759 :  None : False : False :  Reals
+        (2, 27.0) :  None :    0.0180937723269 :  None : False : False :  Reals
+        (2, 30.0) :  None :    0.0181430817008 :  None : False : False :  Reals
+        (2, 33.0) :  None :     0.018173108814 :  None : False : False :  Reals
+        (2, 36.0) :  None :     0.018191032654 :  None : False : False :  Reals
+        (2, 39.0) :  None :     0.015305926189 :  None : False : False :  Reals
+        (2, 42.0) :  None :   0.00773095558965 :  None : False : False :  Reals
+        (2, 45.0) :  None :  0.000339304065216 :  None : False : False :  Reals
+        (2, 48.0) :  None :  -0.00144693827314 :  None : False : False :  Reals
+        (2, 51.0) :  None :                0.0 :  None : False : False :  Reals
+        (2, 54.0) :  None :                0.0 :  None : False : False :  Reals
+        (2, 57.0) :  None :                0.0 :  None : False : False :  Reals
+          (2, 60) :  None :                0.0 :  None : False : False :  Reals
+           (3, 0) :  None :  0.000459397660628 :  None : False : False :  Reals
+         (3, 3.0) :  None :    0.0207978764407 :  None : False : False :  Reals
+         (3, 6.0) :  None :    0.0202452426661 :  None : False : False :  Reals
+         (3, 9.0) :  None :    0.0201446807993 :  None : False : False :  Reals
+        (3, 12.0) :  None :    0.0185533714852 :  None : False : False :  Reals
+        (3, 15.0) :  None :    0.0168966883187 :  None : False : False :  Reals
+        (3, 18.0) :  None :    0.0179622176486 :  None : False : False :  Reals
+        (3, 21.0) :  None :    0.0204804644655 :  None : False : False :  Reals
+        (3, 24.0) :  None :    0.0203558817759 :  None : False : False :  Reals
+        (3, 27.0) :  None :    0.0180937723269 :  None : False : False :  Reals
+        (3, 30.0) :  None :    0.0181430817008 :  None : False : False :  Reals
+        (3, 33.0) :  None :     0.018173108814 :  None : False : False :  Reals
+        (3, 36.0) :  None :     0.018191032654 :  None : False : False :  Reals
+        (3, 39.0) :  None :     0.015305926189 :  None : False : False :  Reals
+        (3, 42.0) :  None :   0.00773095558965 :  None : False : False :  Reals
+        (3, 45.0) :  None :  0.000339304065216 :  None : False : False :  Reals
+        (3, 48.0) :  None :  -0.00144693827314 :  None : False : False :  Reals
+        (3, 51.0) :  None :                0.0 :  None : False : False :  Reals
+        (3, 54.0) :  None :                0.0 :  None : False : False :  Reals
+        (3, 57.0) :  None :                0.0 :  None : False : False :  Reals
+          (3, 60) :  None :                0.0 :  None : False : False :  Reals
+           (4, 0) :  None :             0.0006 :  None : False : False :  Reals
+         (4, 3.0) :  None :    0.0061388613549 :  None : False : False :  Reals
+         (4, 6.0) :  None :    0.0276134684951 :  None : False : False :  Reals
+         (4, 9.0) :  None :    0.0254012308454 :  None : False : False :  Reals
+        (4, 12.0) :  None :     0.022119912317 :  None : False : False :  Reals
+        (4, 15.0) :  None :    0.0165007375963 :  None : False : False :  Reals
+        (4, 18.0) :  None :    0.0168258667499 :  None : False : False :  Reals
+        (4, 21.0) :  None :    0.0204804644655 :  None : False : False :  Reals
+        (4, 24.0) :  None :    0.0203558817759 :  None : False : False :  Reals
+        (4, 27.0) :  None :    0.0180937723269 :  None : False : False :  Reals
+        (4, 30.0) :  None :    0.0181430817008 :  None : False : False :  Reals
+        (4, 33.0) :  None :     0.018173108814 :  None : False : False :  Reals
+        (4, 36.0) :  None :     0.018191032654 :  None : False : False :  Reals
+        (4, 39.0) :  None :     0.015305926189 :  None : False : False :  Reals
+        (4, 42.0) :  None :   0.00773095558965 :  None : False : False :  Reals
+        (4, 45.0) :  None :  0.000339304065216 :  None : False : False :  Reals
+        (4, 48.0) :  None :  -0.00144693827314 :  None : False : False :  Reals
+        (4, 51.0) :  None :                0.0 :  None : False : False :  Reals
+        (4, 54.0) :  None :                0.0 :  None : False : False :  Reals
+        (4, 57.0) :  None :                0.0 :  None : False : False :  Reals
+          (4, 60) :  None :                0.0 :  None : False : False :  Reals
+           (5, 0) :  None :                0.0 :  None : False : False :  Reals
+         (5, 3.0) :  None :   0.00084688385888 :  None : False : False :  Reals
+         (5, 6.0) :  None :   0.00221936170239 :  None : False : False :  Reals
+         (5, 9.0) :  None :    0.0102115925991 :  None : False : False :  Reals
+        (5, 12.0) :  None :    0.0209810198907 :  None : False : False :  Reals
+        (5, 15.0) :  None :    0.0328744382752 :  None : False : False :  Reals
+        (5, 18.0) :  None :    0.0324990143727 :  None : False : False :  Reals
+        (5, 21.0) :  None :    0.0254015438809 :  None : False : False :  Reals
+        (5, 24.0) :  None :    0.0237720017328 :  None : False : False :  Reals
+        (5, 27.0) :  None :    0.0204974296648 :  None : False : False :  Reals
+        (5, 30.0) :  None :    0.0198931570928 :  None : False : False :  Reals
+        (5, 33.0) :  None :    0.0193963177964 :  None : False : False :  Reals
+        (5, 36.0) :  None :    0.0189727196126 :  None : False : False :  Reals
+        (5, 39.0) :  None :    0.0155838455131 :  None : False : False :  Reals
+        (5, 42.0) :  None :   0.00813306403436 :  None : False : False :  Reals
+        (5, 45.0) :  None :  0.000298971203287 :  None : False : False :  Reals
+        (5, 48.0) :  None :  -0.00161469456361 :  None : False : False :  Reals
+        (5, 51.0) :  None :                0.0 :  None : False : False :  Reals
+        (5, 54.0) :  None :                0.0 :  None : False : False :  Reals
+        (5, 57.0) :  None :                0.0 :  None : False : False :  Reals
+          (5, 60) :  None :                0.0 :  None : False : False :  Reals
+    y : Size=105, Index=y_index
+        Key       : Lower : Value : Upper : Fixed : Stale : Domain
+           (1, 0) :     0 :   0.0 :     1 : False : False : Binary
+         (1, 3.0) :     0 :   0.0 :     1 : False : False : Binary
+         (1, 6.0) :     0 :   0.0 :     1 : False : False : Binary
+         (1, 9.0) :     0 :   0.0 :     1 : False : False : Binary
+        (1, 12.0) :     0 :   0.0 :     1 : False : False : Binary
+        (1, 15.0) :     0 :   0.0 :     1 : False : False : Binary
+        (1, 18.0) :     0 :   0.0 :     1 : False : False : Binary
+        (1, 21.0) :     0 :   0.0 :     1 : False : False : Binary
+        (1, 24.0) :     0 :   0.0 :     1 : False : False : Binary
+        (1, 27.0) :     0 :   0.0 :     1 : False : False : Binary
+        (1, 30.0) :     0 :   0.0 :     1 : False : False : Binary
+        (1, 33.0) :     0 :   1.0 :     1 : False : False : Binary
+        (1, 36.0) :     0 :   1.0 :     1 : False : False : Binary
+        (1, 39.0) :     0 :   1.0 :     1 : False : False : Binary
+        (1, 42.0) :     0 :   1.0 :     1 : False : False : Binary
+        (1, 45.0) :     0 :   1.0 :     1 : False : False : Binary
+        (1, 48.0) :     0 :   1.0 :     1 : False : False : Binary
+        (1, 51.0) :     0 :   1.0 :     1 : False : False : Binary
+        (1, 54.0) :     0 :   1.0 :     1 : False : False : Binary
+        (1, 57.0) :     0 :   1.0 :     1 : False : False : Binary
+          (1, 60) :     0 :   1.0 :     1 : False : False : Binary
+           (2, 0) :     0 :   0.0 :     1 : False : False : Binary
+         (2, 3.0) :     0 :   0.0 :     1 : False : False : Binary
+         (2, 6.0) :     0 :   0.0 :     1 : False : False : Binary
+         (2, 9.0) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 12.0) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 15.0) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 18.0) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 21.0) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 24.0) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 27.0) :     0 :   1.0 :     1 : False : False : Binary
+        (2, 30.0) :     0 :   1.0 :     1 : False : False : Binary
+        (2, 33.0) :     0 :   1.0 :     1 : False : False : Binary
+        (2, 36.0) :     0 :   1.0 :     1 : False : False : Binary
+        (2, 39.0) :     0 :   1.0 :     1 : False : False : Binary
+        (2, 42.0) :     0 :   1.0 :     1 : False : False : Binary
+        (2, 45.0) :     0 :   1.0 :     1 : False : False : Binary
+        (2, 48.0) :     0 :   1.0 :     1 : False : False : Binary
+        (2, 51.0) :     0 :   1.0 :     1 : False : False : Binary
+        (2, 54.0) :     0 :   1.0 :     1 : False : False : Binary
+        (2, 57.0) :     0 :   1.0 :     1 : False : False : Binary
+          (2, 60) :     0 :   1.0 :     1 : False : False : Binary
+           (3, 0) :     0 :   0.0 :     1 : False : False : Binary
+         (3, 3.0) :     0 :   0.0 :     1 : False : False : Binary
+         (3, 6.0) :     0 :   0.0 :     1 : False : False : Binary
+         (3, 9.0) :     0 :   0.0 :     1 : False : False : Binary
+        (3, 12.0) :     0 :   0.0 :     1 : False : False : Binary
+        (3, 15.0) :     0 :   0.0 :     1 : False : False : Binary
+        (3, 18.0) :     0 :   0.0 :     1 : False : False : Binary
+        (3, 21.0) :     0 :   0.0 :     1 : False : False : Binary
+        (3, 24.0) :     0 :   0.0 :     1 : False : False : Binary
+        (3, 27.0) :     0 :   1.0 :     1 : False : False : Binary
+        (3, 30.0) :     0 :   1.0 :     1 : False : False : Binary
+        (3, 33.0) :     0 :   1.0 :     1 : False : False : Binary
+        (3, 36.0) :     0 :   1.0 :     1 : False : False : Binary
+        (3, 39.0) :     0 :   1.0 :     1 : False : False : Binary
+        (3, 42.0) :     0 :   1.0 :     1 : False : False : Binary
+        (3, 45.0) :     0 :   1.0 :     1 : False : False : Binary
+        (3, 48.0) :     0 :   1.0 :     1 : False : False : Binary
+        (3, 51.0) :     0 :   1.0 :     1 : False : False : Binary
+        (3, 54.0) :     0 :   1.0 :     1 : False : False : Binary
+        (3, 57.0) :     0 :   1.0 :     1 : False : False : Binary
+          (3, 60) :     0 :   1.0 :     1 : False : False : Binary
+           (4, 0) :     0 :   0.0 :     1 : False : False : Binary
+         (4, 3.0) :     0 :   0.0 :     1 : False : False : Binary
+         (4, 6.0) :     0 :   0.0 :     1 : False : False : Binary
+         (4, 9.0) :     0 :   0.0 :     1 : False : False : Binary
+        (4, 12.0) :     0 :   0.0 :     1 : False : False : Binary
+        (4, 15.0) :     0 :   0.0 :     1 : False : False : Binary
+        (4, 18.0) :     0 :   0.0 :     1 : False : False : Binary
+        (4, 21.0) :     0 :   0.0 :     1 : False : False : Binary
+        (4, 24.0) :     0 :   0.0 :     1 : False : False : Binary
+        (4, 27.0) :     0 :   1.0 :     1 : False : False : Binary
+        (4, 30.0) :     0 :   1.0 :     1 : False : False : Binary
+        (4, 33.0) :     0 :   1.0 :     1 : False : False : Binary
+        (4, 36.0) :     0 :   1.0 :     1 : False : False : Binary
+        (4, 39.0) :     0 :   1.0 :     1 : False : False : Binary
+        (4, 42.0) :     0 :   1.0 :     1 : False : False : Binary
+        (4, 45.0) :     0 :   1.0 :     1 : False : False : Binary
+        (4, 48.0) :     0 :   1.0 :     1 : False : False : Binary
+        (4, 51.0) :     0 :   1.0 :     1 : False : False : Binary
+        (4, 54.0) :     0 :   1.0 :     1 : False : False : Binary
+        (4, 57.0) :     0 :   1.0 :     1 : False : False : Binary
+          (4, 60) :     0 :   1.0 :     1 : False : False : Binary
+           (5, 0) :     0 :   1.0 :     1 : False : False : Binary
+         (5, 3.0) :     0 :   0.0 :     1 : False : False : Binary
+         (5, 6.0) :     0 :   1.0 :     1 : False : False : Binary
+         (5, 9.0) :     0 :   0.0 :     1 : False : False : Binary
+        (5, 12.0) :     0 :   1.0 :     1 : False : False : Binary
+        (5, 15.0) :     0 :   1.0 :     1 : False : False : Binary
+        (5, 18.0) :     0 :   1.0 :     1 : False : False : Binary
+        (5, 21.0) :     0 :   1.0 :     1 : False : False : Binary
+        (5, 24.0) :     0 :   1.0 :     1 : False : False : Binary
+        (5, 27.0) :     0 :   0.0 :     1 : False : False : Binary
+        (5, 30.0) :     0 :   0.0 :     1 : False : False : Binary
+        (5, 33.0) :     0 :   1.0 :     1 : False : False : Binary
+        (5, 36.0) :     0 :   1.0 :     1 : False : False : Binary
+        (5, 39.0) :     0 :   0.0 :     1 : False : False : Binary
+        (5, 42.0) :     0 :   0.0 :     1 : False : False : Binary
+        (5, 45.0) :     0 :   1.0 :     1 : False : False : Binary
+        (5, 48.0) :     0 :   0.0 :     1 : False : False : Binary
+        (5, 51.0) :     0 :   1.0 :     1 : False : False : Binary
+        (5, 54.0) :     0 :   0.0 :     1 : False : False : Binary
+        (5, 57.0) :     0 :   1.0 :     1 : False : False : Binary
+          (5, 60) :     0 :   0.0 :     1 : False : False : Binary
+    y2 : Size=105, Index=y2_index
+        Key       : Lower : Value : Upper : Fixed : Stale : Domain
+           (1, 0) :     0 :   1.0 :     1 : False : False : Binary
+         (1, 3.0) :     0 :   1.0 :     1 : False : False : Binary
+         (1, 6.0) :     0 :   1.0 :     1 : False : False : Binary
+         (1, 9.0) :     0 :   1.0 :     1 : False : False : Binary
+        (1, 12.0) :     0 :   1.0 :     1 : False : False : Binary
+        (1, 15.0) :     0 :   1.0 :     1 : False : False : Binary
+        (1, 18.0) :     0 :   1.0 :     1 : False : False : Binary
+        (1, 21.0) :     0 :   1.0 :     1 : False : False : Binary
+        (1, 24.0) :     0 :   1.0 :     1 : False : False : Binary
+        (1, 27.0) :     0 :   1.0 :     1 : False : False : Binary
+        (1, 30.0) :     0 :   1.0 :     1 : False : False : Binary
+        (1, 33.0) :     0 :   0.0 :     1 : False : False : Binary
+        (1, 36.0) :     0 :   0.0 :     1 : False : False : Binary
+        (1, 39.0) :     0 :   0.0 :     1 : False : False : Binary
+        (1, 42.0) :     0 :   0.0 :     1 : False : False : Binary
+        (1, 45.0) :     0 :   0.0 :     1 : False : False : Binary
+        (1, 48.0) :     0 :   0.0 :     1 : False : False : Binary
+        (1, 51.0) :     0 :   0.0 :     1 : False : False : Binary
+        (1, 54.0) :     0 :   0.0 :     1 : False : False : Binary
+        (1, 57.0) :     0 :   0.0 :     1 : False : False : Binary
+          (1, 60) :     0 :   0.0 :     1 : False : False : Binary
+           (2, 0) :     0 :   1.0 :     1 : False : False : Binary
+         (2, 3.0) :     0 :   1.0 :     1 : False : False : Binary
+         (2, 6.0) :     0 :   1.0 :     1 : False : False : Binary
+         (2, 9.0) :     0 :   1.0 :     1 : False : False : Binary
+        (2, 12.0) :     0 :   1.0 :     1 : False : False : Binary
+        (2, 15.0) :     0 :   1.0 :     1 : False : False : Binary
+        (2, 18.0) :     0 :   1.0 :     1 : False : False : Binary
+        (2, 21.0) :     0 :   1.0 :     1 : False : False : Binary
+        (2, 24.0) :     0 :   1.0 :     1 : False : False : Binary
+        (2, 27.0) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 30.0) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 33.0) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 36.0) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 39.0) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 42.0) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 45.0) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 48.0) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 51.0) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 54.0) :     0 :   0.0 :     1 : False : False : Binary
+        (2, 57.0) :     0 :   0.0 :     1 : False : False : Binary
+          (2, 60) :     0 :   0.0 :     1 : False : False : Binary
+           (3, 0) :     0 :   1.0 :     1 : False : False : Binary
+         (3, 3.0) :     0 :   1.0 :     1 : False : False : Binary
+         (3, 6.0) :     0 :   1.0 :     1 : False : False : Binary
+         (3, 9.0) :     0 :   1.0 :     1 : False : False : Binary
+        (3, 12.0) :     0 :   1.0 :     1 : False : False : Binary
+        (3, 15.0) :     0 :   1.0 :     1 : False : False : Binary
+        (3, 18.0) :     0 :   1.0 :     1 : False : False : Binary
+        (3, 21.0) :     0 :   1.0 :     1 : False : False : Binary
+        (3, 24.0) :     0 :   1.0 :     1 : False : False : Binary
+        (3, 27.0) :     0 :   0.0 :     1 : False : False : Binary
+        (3, 30.0) :     0 :   0.0 :     1 : False : False : Binary
+        (3, 33.0) :     0 :   0.0 :     1 : False : False : Binary
+        (3, 36.0) :     0 :   0.0 :     1 : False : False : Binary
+        (3, 39.0) :     0 :   0.0 :     1 : False : False : Binary
+        (3, 42.0) :     0 :   0.0 :     1 : False : False : Binary
+        (3, 45.0) :     0 :   0.0 :     1 : False : False : Binary
+        (3, 48.0) :     0 :   0.0 :     1 : False : False : Binary
+        (3, 51.0) :     0 :   0.0 :     1 : False : False : Binary
+        (3, 54.0) :     0 :   0.0 :     1 : False : False : Binary
+        (3, 57.0) :     0 :   0.0 :     1 : False : False : Binary
+          (3, 60) :     0 :   0.0 :     1 : False : False : Binary
+           (4, 0) :     0 :   1.0 :     1 : False : False : Binary
+         (4, 3.0) :     0 :   1.0 :     1 : False : False : Binary
+         (4, 6.0) :     0 :   1.0 :     1 : False : False : Binary
+         (4, 9.0) :     0 :   1.0 :     1 : False : False : Binary
+        (4, 12.0) :     0 :   1.0 :     1 : False : False : Binary
+        (4, 15.0) :     0 :   1.0 :     1 : False : False : Binary
+        (4, 18.0) :     0 :   1.0 :     1 : False : False : Binary
+        (4, 21.0) :     0 :   1.0 :     1 : False : False : Binary
+        (4, 24.0) :     0 :   1.0 :     1 : False : False : Binary
+        (4, 27.0) :     0 :   0.0 :     1 : False : False : Binary
+        (4, 30.0) :     0 :   0.0 :     1 : False : False : Binary
+        (4, 33.0) :     0 :   0.0 :     1 : False : False : Binary
+        (4, 36.0) :     0 :   0.0 :     1 : False : False : Binary
+        (4, 39.0) :     0 :   0.0 :     1 : False : False : Binary
+        (4, 42.0) :     0 :   0.0 :     1 : False : False : Binary
+        (4, 45.0) :     0 :   0.0 :     1 : False : False : Binary
+        (4, 48.0) :     0 :   0.0 :     1 : False : False : Binary
+        (4, 51.0) :     0 :   0.0 :     1 : False : False : Binary
+        (4, 54.0) :     0 :   0.0 :     1 : False : False : Binary
+        (4, 57.0) :     0 :   0.0 :     1 : False : False : Binary
+          (4, 60) :     0 :   0.0 :     1 : False : False : Binary
+           (5, 0) :     0 :   0.0 :     1 : False : False : Binary
+         (5, 3.0) :     0 :   1.0 :     1 : False : False : Binary
+         (5, 6.0) :     0 :   0.0 :     1 : False : False : Binary
+         (5, 9.0) :     0 :   1.0 :     1 : False : False : Binary
+        (5, 12.0) :     0 :   0.0 :     1 : False : False : Binary
+        (5, 15.0) :     0 :   0.0 :     1 : False : False : Binary
+        (5, 18.0) :     0 :   0.0 :     1 : False : False : Binary
+        (5, 21.0) :     0 :   0.0 :     1 : False : False : Binary
+        (5, 24.0) :     0 :   0.0 :     1 : False : False : Binary
+        (5, 27.0) :     0 :   1.0 :     1 : False : False : Binary
+        (5, 30.0) :     0 :   1.0 :     1 : False : False : Binary
+        (5, 33.0) :     0 :   0.0 :     1 : False : False : Binary
+        (5, 36.0) :     0 :   0.0 :     1 : False : False : Binary
+        (5, 39.0) :     0 :   1.0 :     1 : False : False : Binary
+        (5, 42.0) :     0 :   1.0 :     1 : False : False : Binary
+        (5, 45.0) :     0 :   0.0 :     1 : False : False : Binary
+        (5, 48.0) :     0 :   1.0 :     1 : False : False : Binary
+        (5, 51.0) :     0 :   0.0 :     1 : False : False : Binary
+        (5, 54.0) :     0 :   1.0 :     1 : False : False : Binary
+        (5, 57.0) :     0 :   0.0 :     1 : False : False : Binary
+          (5, 60) :     0 :   1.0 :     1 : False : False : Binary
+    sp : Size=105, Index=sp_index
+        Key       : Lower : Value            : Upper : Fixed : Stale : Domain
+           (1, 0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+         (1, 3.0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+         (1, 6.0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+         (1, 9.0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+        (1, 12.0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+        (1, 15.0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+        (1, 18.0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+        (1, 21.0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+        (1, 24.0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+        (1, 27.0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+        (1, 30.0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+        (1, 33.0) :     0 :  0.0296391593258 :  None : False : False : NonNegativeReals
+        (1, 36.0) :     0 :  0.0842122572878 :  None : False : False : NonNegativeReals
+        (1, 39.0) :     0 :   0.130130035855 :  None : False : False : NonNegativeReals
+        (1, 42.0) :     0 :   0.153322902624 :  None : False : False : NonNegativeReals
+        (1, 45.0) :     0 :   0.154340814819 :  None : False : False : NonNegativeReals
+        (1, 48.0) :     0 :             0.15 :  None : False : False : NonNegativeReals
+        (1, 51.0) :     0 :             0.15 :  None : False : False : NonNegativeReals
+        (1, 54.0) :     0 :             0.15 :  None : False : False : NonNegativeReals
+        (1, 57.0) :     0 :             0.15 :  None : False : False : NonNegativeReals
+          (1, 60) :     0 :             0.15 :  None : False : False : NonNegativeReals
+           (2, 0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+         (2, 3.0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+         (2, 6.0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+         (2, 9.0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+        (2, 12.0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+        (2, 15.0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+        (2, 18.0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+        (2, 21.0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+        (2, 24.0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+        (2, 27.0) :     0 :  0.0206905877813 :  None : False : False : NonNegativeReals
+        (2, 30.0) :     0 :  0.0751198328836 :  None : False : False : NonNegativeReals
+        (2, 33.0) :     0 :   0.129639159326 :  None : False : False : NonNegativeReals
+        (2, 36.0) :     0 :   0.184212257288 :  None : False : False : NonNegativeReals
+        (2, 39.0) :     0 :   0.230130035855 :  None : False : False : NonNegativeReals
+        (2, 42.0) :     0 :   0.253322902624 :  None : False : False : NonNegativeReals
+        (2, 45.0) :     0 :   0.254340814819 :  None : False : False : NonNegativeReals
+        (2, 48.0) :     0 :             0.25 :  None : False : False : NonNegativeReals
+        (2, 51.0) :     0 :             0.25 :  None : False : False : NonNegativeReals
+        (2, 54.0) :     0 :             0.25 :  None : False : False : NonNegativeReals
+        (2, 57.0) :     0 :             0.25 :  None : False : False : NonNegativeReals
+          (2, 60) :     0 :             0.25 :  None : False : False : NonNegativeReals
+           (3, 0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+         (3, 3.0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+         (3, 6.0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+         (3, 9.0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+        (3, 12.0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+        (3, 15.0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+        (3, 18.0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+        (3, 21.0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+        (3, 24.0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+        (3, 27.0) :     0 :  0.0206905877813 :  None : False : False : NonNegativeReals
+        (3, 30.0) :     0 :  0.0751198328836 :  None : False : False : NonNegativeReals
+        (3, 33.0) :     0 :   0.129639159326 :  None : False : False : NonNegativeReals
+        (3, 36.0) :     0 :   0.184212257288 :  None : False : False : NonNegativeReals
+        (3, 39.0) :     0 :   0.230130035855 :  None : False : False : NonNegativeReals
+        (3, 42.0) :     0 :   0.253322902624 :  None : False : False : NonNegativeReals
+        (3, 45.0) :     0 :   0.254340814819 :  None : False : False : NonNegativeReals
+        (3, 48.0) :     0 :             0.25 :  None : False : False : NonNegativeReals
+        (3, 51.0) :     0 :             0.25 :  None : False : False : NonNegativeReals
+        (3, 54.0) :     0 :             0.25 :  None : False : False : NonNegativeReals
+        (3, 57.0) :     0 :             0.25 :  None : False : False : NonNegativeReals
+          (3, 60) :     0 :             0.25 :  None : False : False : NonNegativeReals
+           (4, 0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+         (4, 3.0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+         (4, 6.0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+         (4, 9.0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+        (4, 12.0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+        (4, 15.0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+        (4, 18.0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+        (4, 21.0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+        (4, 24.0) :     0 :              0.0 :  None : False : False : NonNegativeReals
+        (4, 27.0) :     0 : 0.00800985793294 :  None : False : False : NonNegativeReals
+        (4, 30.0) :     0 :  0.0676893292115 :  None : False : False : NonNegativeReals
+        (4, 33.0) :     0 :   0.125878282601 :  None : False : False : NonNegativeReals
+        (4, 36.0) :     0 :   0.182796441438 :  None : False : False : NonNegativeReals
+        (4, 39.0) :     0 :   0.229547977978 :  None : False : False : NonNegativeReals
+        (4, 42.0) :     0 :   0.253947170081 :  None : False : False : NonNegativeReals
+        (4, 45.0) :     0 :   0.254844083691 :  None : False : False : NonNegativeReals
+        (4, 48.0) :     0 :             0.25 :  None : False : False : NonNegativeReals
+        (4, 51.0) :     0 :             0.25 :  None : False : False : NonNegativeReals
+        (4, 54.0) :     0 :             0.25 :  None : False : False : NonNegativeReals
+        (4, 57.0) :     0 :             0.25 :  None : False : False : NonNegativeReals
+          (4, 60) :     0 :             0.25 :  None : False : False : NonNegativeReals
+           (5, 0) :     0 :             None :  None : False :  True : NonNegativeReals
+         (5, 3.0) :     0 :             None :  None : False :  True : NonNegativeReals
+         (5, 6.0) :     0 :             None :  None : False :  True : NonNegativeReals
+         (5, 9.0) :     0 :             None :  None : False :  True : NonNegativeReals
+        (5, 12.0) :     0 :             None :  None : False :  True : NonNegativeReals
+        (5, 15.0) :     0 :             None :  None : False :  True : NonNegativeReals
+        (5, 18.0) :     0 :             None :  None : False :  True : NonNegativeReals
+        (5, 21.0) :     0 :             None :  None : False :  True : NonNegativeReals
+        (5, 24.0) :     0 :             None :  None : False :  True : NonNegativeReals
+        (5, 27.0) :     0 :             None :  None : False :  True : NonNegativeReals
+        (5, 30.0) :     0 :             None :  None : False :  True : NonNegativeReals
+        (5, 33.0) :     0 :             None :  None : False :  True : NonNegativeReals
+        (5, 36.0) :     0 :             None :  None : False :  True : NonNegativeReals
+        (5, 39.0) :     0 :             None :  None : False :  True : NonNegativeReals
+        (5, 42.0) :     0 :             None :  None : False :  True : NonNegativeReals
+        (5, 45.0) :     0 :             None :  None : False :  True : NonNegativeReals
+        (5, 48.0) :     0 :             None :  None : False :  True : NonNegativeReals
+        (5, 51.0) :     0 :             None :  None : False :  True : NonNegativeReals
+        (5, 54.0) :     0 :             None :  None : False :  True : NonNegativeReals
+        (5, 57.0) :     0 :             None :  None : False :  True : NonNegativeReals
+          (5, 60) :     0 :             None :  None : False :  True : NonNegativeReals
+    sn : Size=105, Index=sn_index
+        Key       : Lower : Value           : Upper : Fixed : Stale : Domain
+           (1, 0) :     0 :          0.5999 :  None : False : False : NonNegativeReals
+         (1, 3.0) :     0 :  0.526584528667 :  None : False : False : NonNegativeReals
+         (1, 6.0) :     0 :   0.47511650115 :  None : False : False : NonNegativeReals
+         (1, 9.0) :     0 :  0.416336600282 :  None : False : False : NonNegativeReals
+        (1, 12.0) :     0 :  0.360676485826 :  None : False : False : NonNegativeReals
+        (1, 15.0) :     0 :   0.30998642087 :  None : False : False : NonNegativeReals
+        (1, 18.0) :     0 :  0.256099767924 :  None : False : False : NonNegativeReals
+        (1, 21.0) :     0 :  0.194658374527 :  None : False : False : NonNegativeReals
+        (1, 24.0) :     0 :    0.1335907292 :  None : False : False : NonNegativeReals
+        (1, 27.0) :     0 : 0.0793094122187 :  None : False : False : NonNegativeReals
+        (1, 30.0) :     0 : 0.0248801671164 :  None : False : False : NonNegativeReals
+        (1, 33.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (1, 36.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (1, 39.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (1, 42.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (1, 45.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (1, 48.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (1, 51.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (1, 54.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (1, 57.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+          (1, 60) :     0 :             0.0 :  None : False : False : NonNegativeReals
+           (2, 0) :     0 :          0.4999 :  None : False : False : NonNegativeReals
+         (2, 3.0) :     0 :  0.437506370678 :  None : False : False : NonNegativeReals
+         (2, 6.0) :     0 :   0.37677064268 :  None : False : False : NonNegativeReals
+         (2, 9.0) :     0 :  0.316336600282 :  None : False : False : NonNegativeReals
+        (2, 12.0) :     0 :  0.260676485826 :  None : False : False : NonNegativeReals
+        (2, 15.0) :     0 :   0.20998642087 :  None : False : False : NonNegativeReals
+        (2, 18.0) :     0 :  0.156099767924 :  None : False : False : NonNegativeReals
+        (2, 21.0) :     0 : 0.0946583745273 :  None : False : False : NonNegativeReals
+        (2, 24.0) :     0 : 0.0335907291996 :  None : False : False : NonNegativeReals
+        (2, 27.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (2, 30.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (2, 33.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (2, 36.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (2, 39.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (2, 42.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (2, 45.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (2, 48.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (2, 51.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (2, 54.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (2, 57.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+          (2, 60) :     0 :             0.0 :  None : False : False : NonNegativeReals
+           (3, 0) :     0 :          0.4999 :  None : False : False : NonNegativeReals
+         (3, 3.0) :     0 :  0.481483415935 :  None : False : False : NonNegativeReals
+         (3, 6.0) :     0 :   0.39864301045 :  None : False : False : NonNegativeReals
+         (3, 9.0) :     0 :  0.322439317914 :  None : False : False : NonNegativeReals
+        (3, 12.0) :     0 :  0.256079580963 :  None : False : False : NonNegativeReals
+        (3, 15.0) :     0 :  0.206577368174 :  None : False : False : NonNegativeReals
+        (3, 18.0) :     0 :  0.156099767924 :  None : False : False : NonNegativeReals
+        (3, 21.0) :     0 : 0.0946583745273 :  None : False : False : NonNegativeReals
+        (3, 24.0) :     0 : 0.0335907291996 :  None : False : False : NonNegativeReals
+        (3, 27.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (3, 30.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (3, 33.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (3, 36.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (3, 39.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (3, 42.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (3, 45.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (3, 48.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (3, 51.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (3, 54.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (3, 57.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+          (3, 60) :     0 :             0.0 :  None : False : False : NonNegativeReals
+           (4, 0) :     0 :          0.4999 :  None : False : False : NonNegativeReals
+         (4, 3.0) :     0 :  0.497359348423 :  None : False : False : NonNegativeReals
+         (4, 6.0) :     0 :  0.490701263316 :  None : False : False : NonNegativeReals
+         (4, 9.0) :     0 :  0.460066485519 :  None : False : False : NonNegativeReals
+        (4, 12.0) :     0 :  0.397123425847 :  None : False : False : NonNegativeReals
+        (4, 15.0) :     0 :  0.298500111021 :  None : False : False : NonNegativeReals
+        (4, 18.0) :     0 :  0.201003067903 :  None : False : False : NonNegativeReals
+        (4, 21.0) :     0 :   0.12479843626 :  None : False : False : NonNegativeReals
+        (4, 24.0) :     0 : 0.0534824310615 :  None : False : False : NonNegativeReals
+        (4, 27.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (4, 30.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (4, 33.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (4, 36.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (4, 39.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (4, 42.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (4, 45.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (4, 48.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (4, 51.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (4, 54.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+        (4, 57.0) :     0 :             0.0 :  None : False : False : NonNegativeReals
+          (4, 60) :     0 :             0.0 :  None : False : False : NonNegativeReals
+           (5, 0) :     0 :            None :  None : False :  True : NonNegativeReals
+         (5, 3.0) :     0 :            None :  None : False :  True : NonNegativeReals
+         (5, 6.0) :     0 :            None :  None : False :  True : NonNegativeReals
+         (5, 9.0) :     0 :            None :  None : False :  True : NonNegativeReals
+        (5, 12.0) :     0 :            None :  None : False :  True : NonNegativeReals
+        (5, 15.0) :     0 :            None :  None : False :  True : NonNegativeReals
+        (5, 18.0) :     0 :            None :  None : False :  True : NonNegativeReals
+        (5, 21.0) :     0 :            None :  None : False :  True : NonNegativeReals
+        (5, 24.0) :     0 :            None :  None : False :  True : NonNegativeReals
+        (5, 27.0) :     0 :            None :  None : False :  True : NonNegativeReals
+        (5, 30.0) :     0 :            None :  None : False :  True : NonNegativeReals
+        (5, 33.0) :     0 :            None :  None : False :  True : NonNegativeReals
+        (5, 36.0) :     0 :            None :  None : False :  True : NonNegativeReals
+        (5, 39.0) :     0 :            None :  None : False :  True : NonNegativeReals
+        (5, 42.0) :     0 :            None :  None : False :  True : NonNegativeReals
+        (5, 45.0) :     0 :            None :  None : False :  True : NonNegativeReals
+        (5, 48.0) :     0 :            None :  None : False :  True : NonNegativeReals
+        (5, 51.0) :     0 :            None :  None : False :  True : NonNegativeReals
+        (5, 54.0) :     0 :            None :  None : False :  True : NonNegativeReals
+        (5, 57.0) :     0 :            None :  None : False :  True : NonNegativeReals
+          (5, 60) :     0 :            None :  None : False :  True : NonNegativeReals
+    obj_var : Size=1, Index=None
+        Key  : Lower : Value         : Upper : Fixed : Stale : Domain
+        None :     0 : 13.6407877471 :  None : False : False : NonNegativeReals
+
+  Objectives:
+    obj : Size=1, Index=None, Active=True
+        Key  : Active : Value
+        None :   True : 13.6407877471
+
+  Constraints:
+    _Ldot : Size=105
+        Key       : Lower : Body               : Upper
+           (1, 0) :   0.0 :                0.0 :   0.0
+         (1, 3.0) :   0.0 :                0.0 :   0.0
+         (1, 6.0) :   0.0 :                0.0 :   0.0
+         (1, 9.0) :   0.0 : -1.38777878078e-17 :   0.0
+        (1, 12.0) :   0.0 : -1.38777878078e-17 :   0.0
+        (1, 15.0) :   0.0 : -1.73472347598e-18 :   0.0
+        (1, 18.0) :   0.0 : -1.73472347598e-18 :   0.0
+        (1, 21.0) :   0.0 : -8.67361737988e-19 :   0.0
+        (1, 24.0) :   0.0 : -1.73472347598e-17 :   0.0
+        (1, 27.0) :   0.0 : -2.42861286637e-17 :   0.0
+        (1, 30.0) :   0.0 :                0.0 :   0.0
+        (1, 33.0) :   0.0 :  1.73472347598e-17 :   0.0
+        (1, 36.0) :   0.0 : -1.38777878078e-17 :   0.0
+        (1, 39.0) :   0.0 :  6.93889390391e-18 :   0.0
+        (1, 42.0) :   0.0 :  8.67361737988e-19 :   0.0
+        (1, 45.0) :   0.0 :  2.53161207275e-17 :   0.0
+        (1, 48.0) :   0.0 : -2.16840434497e-18 :   0.0
+        (1, 51.0) :   0.0 : -1.38777878078e-17 :   0.0
+        (1, 54.0) :   0.0 : -4.85722573274e-17 :   0.0
+        (1, 57.0) :   0.0 :  1.97758476261e-15 :   0.0
+          (1, 60) :   0.0 : -2.01227923213e-15 :   0.0
+           (2, 0) :   0.0 :  5.42101086243e-20 :   0.0
+         (2, 3.0) :   0.0 : -6.93889390391e-18 :   0.0
+         (2, 6.0) :   0.0 :  3.46944695195e-18 :   0.0
+         (2, 9.0) :   0.0 :                0.0 :   0.0
+        (2, 12.0) :   0.0 :  2.08166817117e-17 :   0.0
+        (2, 15.0) :   0.0 : -6.93889390391e-18 :   0.0
+        (2, 18.0) :   0.0 :  1.73472347598e-17 :   0.0
+        (2, 21.0) :   0.0 :  1.38777878078e-17 :   0.0
+        (2, 24.0) :   0.0 : -6.93889390391e-18 :   0.0
+        (2, 27.0) :   0.0 :  1.04083408559e-17 :   0.0
+        (2, 30.0) :   0.0 :  3.46944695195e-18 :   0.0
+        (2, 33.0) :   0.0 : -2.42861286637e-17 :   0.0
+        (2, 36.0) :   0.0 :  3.46944695195e-18 :   0.0
+        (2, 39.0) :   0.0 : -8.67361737988e-18 :   0.0
+        (2, 42.0) :   0.0 : -2.34187669257e-17 :   0.0
+        (2, 45.0) :   0.0 : -1.64256629132e-17 :   0.0
+        (2, 48.0) :   0.0 :  9.32413868338e-18 :   0.0
+        (2, 51.0) :   0.0 :                0.0 :   0.0
+        (2, 54.0) :   0.0 :  3.20576898361e-15 :   0.0
+        (2, 57.0) :   0.0 : -8.27810042736e-15 :   0.0
+          (2, 60) :   0.0 :  5.07927033766e-15 :   0.0
+           (3, 0) :   0.0 :                0.0 :   0.0
+         (3, 3.0) :   0.0 :                0.0 :   0.0
+         (3, 6.0) :   0.0 : -3.46944695195e-18 :   0.0
+         (3, 9.0) :   0.0 :  6.93889390391e-18 :   0.0
+        (3, 12.0) :   0.0 :  1.04083408559e-17 :   0.0
+        (3, 15.0) :   0.0 :  1.04083408559e-17 :   0.0
+        (3, 18.0) :   0.0 : -1.38777878078e-17 :   0.0
+        (3, 21.0) :   0.0 :                0.0 :   0.0
+        (3, 24.0) :   0.0 :  1.38777878078e-17 :   0.0
+        (3, 27.0) :   0.0 :  1.38777878078e-17 :   0.0
+        (3, 30.0) :   0.0 : -3.46944695195e-18 :   0.0
+        (3, 33.0) :   0.0 : -3.46944695195e-18 :   0.0
+        (3, 36.0) :   0.0 : -3.46944695195e-18 :   0.0
+        (3, 39.0) :   0.0 :  1.56125112838e-17 :   0.0
+        (3, 42.0) :   0.0 :  8.67361737988e-19 :   0.0
+        (3, 45.0) :   0.0 :  5.47522097105e-18 :   0.0
+        (3, 48.0) :   0.0 : -2.51534904017e-17 :   0.0
+        (3, 51.0) :   0.0 :  -7.6327832943e-17 :   0.0
+        (3, 54.0) :   0.0 :  3.08780778724e-15 :   0.0
+        (3, 57.0) :   0.0 : -6.12010442325e-15 :   0.0
+          (3, 60) :   0.0 :  3.04617442382e-15 :   0.0
+           (4, 0) :   0.0 :  1.08420217249e-19 :   0.0
+         (4, 3.0) :   0.0 :  3.46944695195e-18 :   0.0
+         (4, 6.0) :   0.0 : -6.93889390391e-18 :   0.0
+         (4, 9.0) :   0.0 :  1.04083408559e-17 :   0.0
+        (4, 12.0) :   0.0 : -1.04083408559e-17 :   0.0
+        (4, 15.0) :   0.0 :  3.46944695195e-18 :   0.0
+        (4, 18.0) :   0.0 :  1.04083408559e-17 :   0.0
+        (4, 21.0) :   0.0 : -6.93889390391e-18 :   0.0
+        (4, 24.0) :   0.0 :                0.0 :   0.0
+        (4, 27.0) :   0.0 :                0.0 :   0.0
+        (4, 30.0) :   0.0 :  1.38777878078e-17 :   0.0
+        (4, 33.0) :   0.0 :  3.46944695195e-18 :   0.0
+        (4, 36.0) :   0.0 :  2.08166817117e-17 :   0.0
+        (4, 39.0) :   0.0 : -1.04083408559e-17 :   0.0
+        (4, 42.0) :   0.0 : -1.04083408559e-17 :   0.0
+        (4, 45.0) :   0.0 :  1.27393755267e-17 :   0.0
+        (4, 48.0) :   0.0 :   7.3725747729e-18 :   0.0
+        (4, 51.0) :   0.0 : -3.46944695195e-17 :   0.0
+        (4, 54.0) :   0.0 :  3.17801340799e-15 :   0.0
+        (4, 57.0) :   0.0 : -6.89032164658e-15 :   0.0
+          (4, 60) :   0.0 :  3.66373598126e-15 :   0.0
+           (5, 0) :   0.0 :                0.0 :   0.0
+         (5, 3.0) :   0.0 :  4.33680868994e-19 :   0.0
+         (5, 6.0) :   0.0 :  4.33680868994e-19 :   0.0
+         (5, 9.0) :   0.0 :                0.0 :   0.0
+        (5, 12.0) :   0.0 :  3.46944695195e-18 :   0.0
+        (5, 15.0) :   0.0 : -1.38777878078e-17 :   0.0
+        (5, 18.0) :   0.0 : -2.77555756156e-17 :   0.0
+        (5, 21.0) :   0.0 :                0.0 :   0.0
+        (5, 24.0) :   0.0 :                0.0 :   0.0
+        (5, 27.0) :   0.0 : -6.93889390391e-18 :   0.0
+        (5, 30.0) :   0.0 : -3.46944695195e-18 :   0.0
+        (5, 33.0) :   0.0 : -6.93889390391e-18 :   0.0
+        (5, 36.0) :   0.0 :                0.0 :   0.0
+        (5, 39.0) :   0.0 :  5.20417042793e-18 :   0.0
+        (5, 42.0) :   0.0 :  1.38777878078e-17 :   0.0
+        (5, 45.0) :   0.0 :   1.0679391399e-17 :   0.0
+        (5, 48.0) :   0.0 : -3.25260651746e-18 :   0.0
+        (5, 51.0) :   0.0 :  4.16333634234e-17 :   0.0
+        (5, 54.0) :   0.0 :  2.08166817117e-17 :   0.0
+        (5, 57.0) :   0.0 :  5.13478148889e-16 :   0.0
+          (5, 60) :   0.0 : -4.99600361081e-16 :   0.0
+    _F : Size=105
+        Key       : Lower : Body               : Upper
+           (1, 0) :   0.0 :                0.0 :   0.0
+         (1, 3.0) :   0.0 :                0.0 :   0.0
+         (1, 6.0) :   0.0 :                0.0 :   0.0
+         (1, 9.0) :   0.0 :                0.0 :   0.0
+        (1, 12.0) :   0.0 :                0.0 :   0.0
+        (1, 15.0) :   0.0 :                0.0 :   0.0
+        (1, 18.0) :   0.0 : -2.77555756156e-17 :   0.0
+        (1, 21.0) :   0.0 :                0.0 :   0.0
+        (1, 24.0) :   0.0 :  2.61259486267e-11 :   0.0
+        (1, 27.0) :   0.0 :  3.88984243427e-09 :   0.0
+        (1, 30.0) :   0.0 :  1.00322346264e-09 :   0.0
+        (1, 33.0) :   0.0 : -1.92221835671e-10 :   0.0
+        (1, 36.0) :   0.0 :  2.48309164896e-10 :   0.0
+        (1, 39.0) :   0.0 :  -1.7430015764e-11 :   0.0
+        (1, 42.0) :   0.0 :  9.48355463604e-10 :   0.0
+        (1, 45.0) :   0.0 :  1.47074432494e-09 :   0.0
+        (1, 48.0) :   0.0 :  2.77724530873e-10 :   0.0
+        (1, 51.0) :   0.0 :  6.22848992521e-09 :   0.0
+        (1, 54.0) :   0.0 :  5.63014377342e-08 :   0.0
+        (1, 57.0) :   0.0 :  5.44971454977e-08 :   0.0
+          (1, 60) :   0.0 : -3.59716308823e-09 :   0.0
+           (2, 0) :   0.0 :  2.16840434497e-19 :   0.0
+         (2, 3.0) :   0.0 :  4.26135032469e-09 :   0.0
+         (2, 6.0) :   0.0 :  6.68398168063e-09 :   0.0
+         (2, 9.0) :   0.0 : -3.89181999128e-10 :   0.0
+        (2, 12.0) :   0.0 : -2.11751727264e-11 :   0.0
+        (2, 15.0) :   0.0 :  1.51341938981e-10 :   0.0
+        (2, 18.0) :   0.0 :   5.3272970757e-10 :   0.0
+        (2, 21.0) :   0.0 : -6.42712966181e-11 :   0.0
+        (2, 24.0) :   0.0 :  4.61630830784e-10 :   0.0
+        (2, 27.0) :   0.0 :  -6.0723497064e-10 :   0.0
+        (2, 30.0) :   0.0 :  2.91892681692e-08 :   0.0
+        (2, 33.0) :   0.0 :  1.02755551151e-08 :   0.0
+        (2, 36.0) :   0.0 :  1.17522208631e-09 :   0.0
+        (2, 39.0) :   0.0 : -7.80386311128e-11 :   0.0
+        (2, 42.0) :   0.0 :  8.41388902995e-11 :   0.0
+        (2, 45.0) :   0.0 :  2.73630784697e-10 :   0.0
+        (2, 48.0) :   0.0 : -1.54496269944e-10 :   0.0
+        (2, 51.0) :   0.0 :  8.43649955451e-10 :   0.0
+        (2, 54.0) :   0.0 :  1.53828929594e-08 :   0.0
+        (2, 57.0) :   0.0 :  -5.8614897866e-09 :   0.0
+          (2, 60) :   0.0 :  7.97611553194e-10 :   0.0
+           (3, 0) :   0.0 :                0.0 :   0.0
+         (3, 3.0) :   0.0 :  1.71123597063e-10 :   0.0
+         (3, 6.0) :   0.0 : -3.00527398106e-10 :   0.0
+         (3, 9.0) :   0.0 :  4.66086405582e-10 :   0.0
+        (3, 12.0) :   0.0 :  3.44519981987e-10 :   0.0
+        (3, 15.0) :   0.0 :  2.17581577755e-10 :   0.0
+        (3, 18.0) :   0.0 :  9.26043408622e-11 :   0.0
+        (3, 21.0) :   0.0 :  4.98494648338e-11 :   0.0
+        (3, 24.0) :   0.0 : -1.21587379054e-10 :   0.0
+        (3, 27.0) :   0.0 :  -1.2501916169e-11 :   0.0
+        (3, 30.0) :   0.0 :  3.10242666279e-09 :   0.0
+        (3, 33.0) :   0.0 :  1.57406521151e-09 :   0.0
+        (3, 36.0) :   0.0 : -5.62724866704e-12 :   0.0
+        (3, 39.0) :   0.0 :  1.31546225302e-10 :   0.0
+        (3, 42.0) :   0.0 :  8.88068785176e-12 :   0.0
+        (3, 45.0) :   0.0 :  5.24754198428e-11 :   0.0
+        (3, 48.0) :   0.0 : -9.75069261444e-11 :   0.0
+        (3, 51.0) :   0.0 :  1.23159003829e-10 :   0.0
+        (3, 54.0) :   0.0 :  2.46521865421e-10 :   0.0
+        (3, 57.0) :   0.0 :  -6.3403596956e-10 :   0.0
+          (3, 60) :   0.0 :   7.4840064701e-12 :   0.0
+           (4, 0) :   0.0 :                0.0 :   0.0
+         (4, 3.0) :   0.0 :  9.15604376171e-12 :   0.0
+         (4, 6.0) :   0.0 :  2.91873964234e-11 :   0.0
+         (4, 9.0) :   0.0 :  5.34163512034e-12 :   0.0
+        (4, 12.0) :   0.0 :  2.22578205866e-12 :   0.0
+        (4, 15.0) :   0.0 :  3.01459551766e-12 :   0.0
+        (4, 18.0) :   0.0 :  4.71223129961e-11 :   0.0
+        (4, 21.0) :   0.0 :  7.84437514945e-11 :   0.0
+        (4, 24.0) :   0.0 :   7.3462312622e-12 :   0.0
+        (4, 27.0) :   0.0 : -3.04506975191e-11 :   0.0
+        (4, 30.0) :   0.0 :  1.61228287665e-11 :   0.0
+        (4, 33.0) :   0.0 :  1.09038642698e-10 :   0.0
+        (4, 36.0) :   0.0 : -4.55739682104e-11 :   0.0
+        (4, 39.0) :   0.0 :  4.69311103868e-10 :   0.0
+        (4, 42.0) :   0.0 :  7.08347089318e-10 :   0.0
+        (4, 45.0) :   0.0 :  9.35561628168e-10 :   0.0
+        (4, 48.0) :   0.0 :    3.976525359e-11 :   0.0
+        (4, 51.0) :   0.0 :  1.58815960383e-10 :   0.0
+        (4, 54.0) :   0.0 :  1.28198243687e-10 :   0.0
+        (4, 57.0) :   0.0 :  5.12845321765e-12 :   0.0
+          (4, 60) :   0.0 :  3.87946619274e-13 :   0.0
+           (5, 0) :   0.0 :                0.0 :   0.0
+         (5, 3.0) :   0.0 :  1.22826174145e-12 :   0.0
+         (5, 6.0) :   0.0 :  2.85057773827e-12 :   0.0
+         (5, 9.0) :   0.0 :  2.40528517242e-13 :   0.0
+        (5, 12.0) :   0.0 :  9.47124323414e-14 :   0.0
+        (5, 15.0) :   0.0 :  3.65115923606e-14 :   0.0
+        (5, 18.0) :   0.0 :  8.27933208103e-13 :   0.0
+        (5, 21.0) :   0.0 :  1.59872549227e-12 :   0.0
+        (5, 24.0) :   0.0 :  1.15140709467e-12 :   0.0
+        (5, 27.0) :   0.0 :  2.19309813365e-13 :   0.0
+        (5, 30.0) :   0.0 :  1.16438109155e-13 :   0.0
+        (5, 33.0) :   0.0 :  2.78752715355e-13 :   0.0
+        (5, 36.0) :   0.0 :  1.50247869701e-13 :   0.0
+        (5, 39.0) :   0.0 : -7.38629504782e-11 :   0.0
+        (5, 42.0) :   0.0 : -8.33886848461e-11 :   0.0
+        (5, 45.0) :   0.0 : -7.95894322669e-11 :   0.0
+        (5, 48.0) :   0.0 :  1.06925648891e-11 :   0.0
+        (5, 51.0) :   0.0 :  1.11962301236e-09 :   0.0
+        (5, 54.0) :   0.0 : -1.76483327952e-10 :   0.0
+        (5, 57.0) :   0.0 :  2.99779992496e-11 :   0.0
+          (5, 60) :   0.0 :  3.23761156773e-12 :   0.0
+    _F0 : Size=21
+        Key  : Lower : Body               : Upper
+           0 :   0.0 :                0.0 :   0.0
+         3.0 :   0.0 :                0.0 :   0.0
+         6.0 :   0.0 :                0.0 :   0.0
+         9.0 :   0.0 :                0.0 :   0.0
+        12.0 :   0.0 :                0.0 :   0.0
+        15.0 :   0.0 :                0.0 :   0.0
+        18.0 :   0.0 :                0.0 :   0.0
+        21.0 :   0.0 :                0.0 :   0.0
+        24.0 :   0.0 :                0.0 :   0.0
+        27.0 :   0.0 :                0.0 :   0.0
+        30.0 :   0.0 :                0.0 :   0.0
+        33.0 :   0.0 :                0.0 :   0.0
+        36.0 :   0.0 :                0.0 :   0.0
+        39.0 :   0.0 :                0.0 :   0.0
+        42.0 :   0.0 : -2.77555756156e-17 :   0.0
+        45.0 :   0.0 :                0.0 :   0.0
+        48.0 :   0.0 :                0.0 :   0.0
+        51.0 :   0.0 :  6.93889390391e-18 :   0.0
+        54.0 :   0.0 :  6.93889390391e-18 :   0.0
+        57.0 :   0.0 :  1.38777878078e-17 :   0.0
+          60 :   0.0 :  6.93889390391e-18 :   0.0
+    _delL : Size=105
+        Key       : Lower : Body               : Upper
+           (1, 0) :   0.0 :                0.0 :   0.0
+         (1, 3.0) :   0.0 :                0.0 :   0.0
+         (1, 6.0) :   0.0 :                0.0 :   0.0
+         (1, 9.0) :   0.0 :                0.0 :   0.0
+        (1, 12.0) :   0.0 :                0.0 :   0.0
+        (1, 15.0) :   0.0 :                0.0 :   0.0
+        (1, 18.0) :   0.0 :                0.0 :   0.0
+        (1, 21.0) :   0.0 :                0.0 :   0.0
+        (1, 24.0) :   0.0 :                0.0 :   0.0
+        (1, 27.0) :   0.0 :                0.0 :   0.0
+        (1, 30.0) :   0.0 :                0.0 :   0.0
+        (1, 33.0) :   0.0 :                0.0 :   0.0
+        (1, 36.0) :   0.0 :                0.0 :   0.0
+        (1, 39.0) :   0.0 :                0.0 :   0.0
+        (1, 42.0) :   0.0 :                0.0 :   0.0
+        (1, 45.0) :   0.0 :                0.0 :   0.0
+        (1, 48.0) :   0.0 :  1.11022302463e-16 :   0.0
+        (1, 51.0) :   0.0 : -1.11022302463e-16 :   0.0
+        (1, 54.0) :   0.0 : -1.11022302463e-16 :   0.0
+        (1, 57.0) :   0.0 :                0.0 :   0.0
+          (1, 60) :   0.0 :                0.0 :   0.0
+           (2, 0) :   0.0 :                0.0 :   0.0
+         (2, 3.0) :   0.0 :                0.0 :   0.0
+         (2, 6.0) :   0.0 :                0.0 :   0.0
+         (2, 9.0) :   0.0 :                0.0 :   0.0
+        (2, 12.0) :   0.0 :                0.0 :   0.0
+        (2, 15.0) :   0.0 :                0.0 :   0.0
+        (2, 18.0) :   0.0 :                0.0 :   0.0
+        (2, 21.0) :   0.0 :                0.0 :   0.0
+        (2, 24.0) :   0.0 :                0.0 :   0.0
+        (2, 27.0) :   0.0 :                0.0 :   0.0
+        (2, 30.0) :   0.0 : -1.11022302463e-16 :   0.0
+        (2, 33.0) :   0.0 : -1.66533453694e-16 :   0.0
+        (2, 36.0) :   0.0 :                0.0 :   0.0
+        (2, 39.0) :   0.0 : -1.11022302463e-16 :   0.0
+        (2, 42.0) :   0.0 : -1.11022302463e-16 :   0.0
+        (2, 45.0) :   0.0 : -1.11022302463e-16 :   0.0
+        (2, 48.0) :   0.0 :                0.0 :   0.0
+        (2, 51.0) :   0.0 : -1.11022302463e-16 :   0.0
+        (2, 54.0) :   0.0 :                0.0 :   0.0
+        (2, 57.0) :   0.0 :  1.11022302463e-16 :   0.0
+          (2, 60) :   0.0 :                0.0 :   0.0
+           (3, 0) :   0.0 :                0.0 :   0.0
+         (3, 3.0) :   0.0 :                0.0 :   0.0
+         (3, 6.0) :   0.0 :                0.0 :   0.0
+         (3, 9.0) :   0.0 :                0.0 :   0.0
+        (3, 12.0) :   0.0 :                0.0 :   0.0
+        (3, 15.0) :   0.0 :                0.0 :   0.0
+        (3, 18.0) :   0.0 :                0.0 :   0.0
+        (3, 21.0) :   0.0 :                0.0 :   0.0
+        (3, 24.0) :   0.0 :                0.0 :   0.0
+        (3, 27.0) :   0.0 : -1.11022302463e-16 :   0.0
+        (3, 30.0) :   0.0 :  1.11022302463e-16 :   0.0
+        (3, 33.0) :   0.0 :  1.11022302463e-16 :   0.0
+        (3, 36.0) :   0.0 :                0.0 :   0.0
+        (3, 39.0) :   0.0 :                0.0 :   0.0
+        (3, 42.0) :   0.0 :                0.0 :   0.0
+        (3, 45.0) :   0.0 :                0.0 :   0.0
+        (3, 48.0) :   0.0 :  1.11022302463e-16 :   0.0
+        (3, 51.0) :   0.0 :                0.0 :   0.0
+        (3, 54.0) :   0.0 :                0.0 :   0.0
+        (3, 57.0) :   0.0 : -5.55111512313e-17 :   0.0
+          (3, 60) :   0.0 :                0.0 :   0.0
+           (4, 0) :   0.0 :                0.0 :   0.0
+         (4, 3.0) :   0.0 :                0.0 :   0.0
+         (4, 6.0) :   0.0 :                0.0 :   0.0
+         (4, 9.0) :   0.0 :                0.0 :   0.0
+        (4, 12.0) :   0.0 :                0.0 :   0.0
+        (4, 15.0) :   0.0 :                0.0 :   0.0
+        (4, 18.0) :   0.0 :                0.0 :   0.0
+        (4, 21.0) :   0.0 :                0.0 :   0.0
+        (4, 24.0) :   0.0 :                0.0 :   0.0
+        (4, 27.0) :   0.0 :                0.0 :   0.0
+        (4, 30.0) :   0.0 : -1.11022302463e-16 :   0.0
+        (4, 33.0) :   0.0 :                0.0 :   0.0
+        (4, 36.0) :   0.0 : -1.11022302463e-16 :   0.0
+        (4, 39.0) :   0.0 :  1.11022302463e-16 :   0.0
+        (4, 42.0) :   0.0 :  5.55111512313e-17 :   0.0
+        (4, 45.0) :   0.0 :                0.0 :   0.0
+        (4, 48.0) :   0.0 :                0.0 :   0.0
+        (4, 51.0) :   0.0 :  1.11022302463e-16 :   0.0
+        (4, 54.0) :   0.0 :  5.55111512313e-17 :   0.0
+        (4, 57.0) :   0.0 : -1.11022302463e-16 :   0.0
+          (4, 60) :   0.0 :                0.0 :   0.0
+           (5, 0) :   0.0 :                0.0 :   0.0
+         (5, 3.0) :   0.0 :                0.0 :   0.0
+         (5, 6.0) :   0.0 :                0.0 :   0.0
+         (5, 9.0) :   0.0 :                0.0 :   0.0
+        (5, 12.0) :   0.0 :                0.0 :   0.0
+        (5, 15.0) :   0.0 :                0.0 :   0.0
+        (5, 18.0) :   0.0 :                0.0 :   0.0
+        (5, 21.0) :   0.0 :                0.0 :   0.0
+        (5, 24.0) :   0.0 :                0.0 :   0.0
+        (5, 27.0) :   0.0 :                0.0 :   0.0
+        (5, 30.0) :   0.0 :                0.0 :   0.0
+        (5, 33.0) :   0.0 :                0.0 :   0.0
+        (5, 36.0) :   0.0 :                0.0 :   0.0
+        (5, 39.0) :   0.0 :                0.0 :   0.0
+        (5, 42.0) :   0.0 :                0.0 :   0.0
+        (5, 45.0) :   0.0 :                0.0 :   0.0
+        (5, 48.0) :   0.0 :                0.0 :   0.0
+        (5, 51.0) :   0.0 :                0.0 :   0.0
+        (5, 54.0) :   0.0 :                0.0 :   0.0
+        (5, 57.0) :   0.0 :                0.0 :   0.0
+          (5, 60) :   0.0 :                0.0 :   0.0
+    _slacks : Size=84
+        Key       : Lower : Body               : Upper
+           (1, 0) :   0.0 :                0.0 :   0.0
+         (1, 3.0) :   0.0 :                0.0 :   0.0
+         (1, 6.0) :   0.0 :                0.0 :   0.0
+         (1, 9.0) :   0.0 : -5.55111512313e-17 :   0.0
+        (1, 12.0) :   0.0 :                0.0 :   0.0
+        (1, 15.0) :   0.0 :                0.0 :   0.0
+        (1, 18.0) :   0.0 :                0.0 :   0.0
+        (1, 21.0) :   0.0 :                0.0 :   0.0
+        (1, 24.0) :   0.0 :                0.0 :   0.0
+        (1, 27.0) :   0.0 :  2.63677968348e-16 :   0.0
+        (1, 30.0) :   0.0 : -5.55111512313e-17 :   0.0
+        (1, 33.0) :   0.0 :  1.28369537222e-16 :   0.0
+        (1, 36.0) :   0.0 :  1.66533453694e-16 :   0.0
+        (1, 39.0) :   0.0 :  2.77555756156e-17 :   0.0
+        (1, 42.0) :   0.0 :  2.77555756156e-17 :   0.0
+        (1, 45.0) :   0.0 :  2.49800180541e-16 :   0.0
+        (1, 48.0) :   0.0 : -8.32667268469e-17 :   0.0
+        (1, 51.0) :   0.0 :  5.55111512313e-17 :   0.0
+        (1, 54.0) :   0.0 : -1.94289029309e-16 :   0.0
+        (1, 57.0) :   0.0 :  1.66533453694e-16 :   0.0
+          (1, 60) :   0.0 :  5.55111512313e-17 :   0.0
+           (2, 0) :   0.0 :                0.0 :   0.0
+         (2, 3.0) :   0.0 : -1.11022302463e-16 :   0.0
+         (2, 6.0) :   0.0 :  5.55111512313e-17 :   0.0
+         (2, 9.0) :   0.0 : -1.11022302463e-16 :   0.0
+        (2, 12.0) :   0.0 : -1.11022302463e-16 :   0.0
+        (2, 15.0) :   0.0 :  1.11022302463e-16 :   0.0
+        (2, 18.0) :   0.0 :  2.77555756156e-17 :   0.0
+        (2, 21.0) :   0.0 :                0.0 :   0.0
+        (2, 24.0) :   0.0 :  6.93889390391e-18 :   0.0
+        (2, 27.0) :   0.0 : -4.51028103754e-17 :   0.0
+        (2, 30.0) :   0.0 :  1.38777878078e-17 :   0.0
+        (2, 33.0) :   0.0 : -1.38777878078e-16 :   0.0
+        (2, 36.0) :   0.0 : -5.55111512313e-17 :   0.0
+        (2, 39.0) :   0.0 :  8.32667268469e-17 :   0.0
+        (2, 42.0) :   0.0 : -2.77555756156e-16 :   0.0
+        (2, 45.0) :   0.0 : -5.55111512313e-17 :   0.0
+        (2, 48.0) :   0.0 : -8.32667268469e-17 :   0.0
+        (2, 51.0) :   0.0 :  1.11022302463e-16 :   0.0
+        (2, 54.0) :   0.0 :  1.38777878078e-16 :   0.0
+        (2, 57.0) :   0.0 : -3.33066907388e-16 :   0.0
+          (2, 60) :   0.0 : -8.32667268469e-17 :   0.0
+           (3, 0) :   0.0 :                0.0 :   0.0
+         (3, 3.0) :   0.0 :  5.55111512313e-17 :   0.0
+         (3, 6.0) :   0.0 :  5.55111512313e-17 :   0.0
+         (3, 9.0) :   0.0 :  5.55111512313e-17 :   0.0
+        (3, 12.0) :   0.0 :                0.0 :   0.0
+        (3, 15.0) :   0.0 : -1.11022302463e-16 :   0.0
+        (3, 18.0) :   0.0 : -2.77555756156e-17 :   0.0
+        (3, 21.0) :   0.0 :  2.77555756156e-17 :   0.0
+        (3, 24.0) :   0.0 :  2.08166817117e-17 :   0.0
+        (3, 27.0) :   0.0 :  1.35308431126e-16 :   0.0
+        (3, 30.0) :   0.0 : -2.91433543964e-16 :   0.0
+        (3, 33.0) :   0.0 :  5.55111512313e-17 :   0.0
+        (3, 36.0) :   0.0 :  1.66533453694e-16 :   0.0
+        (3, 39.0) :   0.0 :                0.0 :   0.0
+        (3, 42.0) :   0.0 :  5.55111512313e-17 :   0.0
+        (3, 45.0) :   0.0 : -5.55111512313e-17 :   0.0
+        (3, 48.0) :   0.0 : -1.38777878078e-16 :   0.0
+        (3, 51.0) :   0.0 :                0.0 :   0.0
+        (3, 54.0) :   0.0 : -2.77555756156e-17 :   0.0
+        (3, 57.0) :   0.0 :  1.11022302463e-16 :   0.0
+          (3, 60) :   0.0 :  5.55111512313e-17 :   0.0
+           (4, 0) :   0.0 :                0.0 :   0.0
+         (4, 3.0) :   0.0 : -5.55111512313e-17 :   0.0
+         (4, 6.0) :   0.0 :                0.0 :   0.0
+         (4, 9.0) :   0.0 : -5.55111512313e-17 :   0.0
+        (4, 12.0) :   0.0 : -1.11022302463e-16 :   0.0
+        (4, 15.0) :   0.0 :                0.0 :   0.0
+        (4, 18.0) :   0.0 :  2.77555756156e-17 :   0.0
+        (4, 21.0) :   0.0 :  9.71445146547e-17 :   0.0
+        (4, 24.0) :   0.0 :  2.08166817117e-17 :   0.0
+        (4, 27.0) :   0.0 :  1.56125112838e-17 :   0.0
+        (4, 30.0) :   0.0 : -5.55111512313e-17 :   0.0
+        (4, 33.0) :   0.0 :  2.22044604925e-16 :   0.0
+        (4, 36.0) :   0.0 :                0.0 :   0.0
+        (4, 39.0) :   0.0 : -8.32667268469e-17 :   0.0
+        (4, 42.0) :   0.0 :  1.66533453694e-16 :   0.0
+        (4, 45.0) :   0.0 : -1.11022302463e-16 :   0.0
+        (4, 48.0) :   0.0 :  1.66533453694e-16 :   0.0
+        (4, 51.0) :   0.0 : -5.55111512313e-17 :   0.0
+        (4, 54.0) :   0.0 :                0.0 :   0.0
+        (4, 57.0) :   0.0 :  2.77555756156e-17 :   0.0
+          (4, 60) :   0.0 : -1.11022302463e-16 :   0.0
+    _ysum : Size=105
+        Key       : Lower : Body : Upper
+           (1, 0) :   1.0 :  1.0 :   1.0
+         (1, 3.0) :   1.0 :  1.0 :   1.0
+         (1, 6.0) :   1.0 :  1.0 :   1.0
+         (1, 9.0) :   1.0 :  1.0 :   1.0
+        (1, 12.0) :   1.0 :  1.0 :   1.0
+        (1, 15.0) :   1.0 :  1.0 :   1.0
+        (1, 18.0) :   1.0 :  1.0 :   1.0
+        (1, 21.0) :   1.0 :  1.0 :   1.0
+        (1, 24.0) :   1.0 :  1.0 :   1.0
+        (1, 27.0) :   1.0 :  1.0 :   1.0
+        (1, 30.0) :   1.0 :  1.0 :   1.0
+        (1, 33.0) :   1.0 :  1.0 :   1.0
+        (1, 36.0) :   1.0 :  1.0 :   1.0
+        (1, 39.0) :   1.0 :  1.0 :   1.0
+        (1, 42.0) :   1.0 :  1.0 :   1.0
+        (1, 45.0) :   1.0 :  1.0 :   1.0
+        (1, 48.0) :   1.0 :  1.0 :   1.0
+        (1, 51.0) :   1.0 :  1.0 :   1.0
+        (1, 54.0) :   1.0 :  1.0 :   1.0
+        (1, 57.0) :   1.0 :  1.0 :   1.0
+          (1, 60) :   1.0 :  1.0 :   1.0
+           (2, 0) :   1.0 :  1.0 :   1.0
+         (2, 3.0) :   1.0 :  1.0 :   1.0
+         (2, 6.0) :   1.0 :  1.0 :   1.0
+         (2, 9.0) :   1.0 :  1.0 :   1.0
+        (2, 12.0) :   1.0 :  1.0 :   1.0
+        (2, 15.0) :   1.0 :  1.0 :   1.0
+        (2, 18.0) :   1.0 :  1.0 :   1.0
+        (2, 21.0) :   1.0 :  1.0 :   1.0
+        (2, 24.0) :   1.0 :  1.0 :   1.0
+        (2, 27.0) :   1.0 :  1.0 :   1.0
+        (2, 30.0) :   1.0 :  1.0 :   1.0
+        (2, 33.0) :   1.0 :  1.0 :   1.0
+        (2, 36.0) :   1.0 :  1.0 :   1.0
+        (2, 39.0) :   1.0 :  1.0 :   1.0
+        (2, 42.0) :   1.0 :  1.0 :   1.0
+        (2, 45.0) :   1.0 :  1.0 :   1.0
+        (2, 48.0) :   1.0 :  1.0 :   1.0
+        (2, 51.0) :   1.0 :  1.0 :   1.0
+        (2, 54.0) :   1.0 :  1.0 :   1.0
+        (2, 57.0) :   1.0 :  1.0 :   1.0
+          (2, 60) :   1.0 :  1.0 :   1.0
+           (3, 0) :   1.0 :  1.0 :   1.0
+         (3, 3.0) :   1.0 :  1.0 :   1.0
+         (3, 6.0) :   1.0 :  1.0 :   1.0
+         (3, 9.0) :   1.0 :  1.0 :   1.0
+        (3, 12.0) :   1.0 :  1.0 :   1.0
+        (3, 15.0) :   1.0 :  1.0 :   1.0
+        (3, 18.0) :   1.0 :  1.0 :   1.0
+        (3, 21.0) :   1.0 :  1.0 :   1.0
+        (3, 24.0) :   1.0 :  1.0 :   1.0
+        (3, 27.0) :   1.0 :  1.0 :   1.0
+        (3, 30.0) :   1.0 :  1.0 :   1.0
+        (3, 33.0) :   1.0 :  1.0 :   1.0
+        (3, 36.0) :   1.0 :  1.0 :   1.0
+        (3, 39.0) :   1.0 :  1.0 :   1.0
+        (3, 42.0) :   1.0 :  1.0 :   1.0
+        (3, 45.0) :   1.0 :  1.0 :   1.0
+        (3, 48.0) :   1.0 :  1.0 :   1.0
+        (3, 51.0) :   1.0 :  1.0 :   1.0
+        (3, 54.0) :   1.0 :  1.0 :   1.0
+        (3, 57.0) :   1.0 :  1.0 :   1.0
+          (3, 60) :   1.0 :  1.0 :   1.0
+           (4, 0) :   1.0 :  1.0 :   1.0
+         (4, 3.0) :   1.0 :  1.0 :   1.0
+         (4, 6.0) :   1.0 :  1.0 :   1.0
+         (4, 9.0) :   1.0 :  1.0 :   1.0
+        (4, 12.0) :   1.0 :  1.0 :   1.0
+        (4, 15.0) :   1.0 :  1.0 :   1.0
+        (4, 18.0) :   1.0 :  1.0 :   1.0
+        (4, 21.0) :   1.0 :  1.0 :   1.0
+        (4, 24.0) :   1.0 :  1.0 :   1.0
+        (4, 27.0) :   1.0 :  1.0 :   1.0
+        (4, 30.0) :   1.0 :  1.0 :   1.0
+        (4, 33.0) :   1.0 :  1.0 :   1.0
+        (4, 36.0) :   1.0 :  1.0 :   1.0
+        (4, 39.0) :   1.0 :  1.0 :   1.0
+        (4, 42.0) :   1.0 :  1.0 :   1.0
+        (4, 45.0) :   1.0 :  1.0 :   1.0
+        (4, 48.0) :   1.0 :  1.0 :   1.0
+        (4, 51.0) :   1.0 :  1.0 :   1.0
+        (4, 54.0) :   1.0 :  1.0 :   1.0
+        (4, 57.0) :   1.0 :  1.0 :   1.0
+          (4, 60) :   1.0 :  1.0 :   1.0
+           (5, 0) :   1.0 :  1.0 :   1.0
+         (5, 3.0) :   1.0 :  1.0 :   1.0
+         (5, 6.0) :   1.0 :  1.0 :   1.0
+         (5, 9.0) :   1.0 :  1.0 :   1.0
+        (5, 12.0) :   1.0 :  1.0 :   1.0
+        (5, 15.0) :   1.0 :  1.0 :   1.0
+        (5, 18.0) :   1.0 :  1.0 :   1.0
+        (5, 21.0) :   1.0 :  1.0 :   1.0
+        (5, 24.0) :   1.0 :  1.0 :   1.0
+        (5, 27.0) :   1.0 :  1.0 :   1.0
+        (5, 30.0) :   1.0 :  1.0 :   1.0
+        (5, 33.0) :   1.0 :  1.0 :   1.0
+        (5, 36.0) :   1.0 :  1.0 :   1.0
+        (5, 39.0) :   1.0 :  1.0 :   1.0
+        (5, 42.0) :   1.0 :  1.0 :   1.0
+        (5, 45.0) :   1.0 :  1.0 :   1.0
+        (5, 48.0) :   1.0 :  1.0 :   1.0
+        (5, 51.0) :   1.0 :  1.0 :   1.0
+        (5, 54.0) :   1.0 :  1.0 :   1.0
+        (5, 57.0) :   1.0 :  1.0 :   1.0
+          (5, 60) :   1.0 :  1.0 :   1.0
+    ICs : Size=5
+        Key : Lower  : Body   : Upper
+          1 : 0.0001 : 0.0001 : 0.0001
+          2 : 0.0001 : 0.0001 : 0.0001
+          3 : 0.0001 : 0.0001 : 0.0001
+          4 : 0.0001 : 0.0001 : 0.0001
+          5 : 0.0001 : 0.0001 : 0.0001
+    dLdt_disc_eq : Size=100
+        Key       : Lower : Body               : Upper
+         (1, 3.0) :   0.0 : -4.72538674856e-14 :   0.0
+         (1, 6.0) :   0.0 : -3.18009507616e-14 :   0.0
+         (1, 9.0) :   0.0 : -2.26485497024e-14 :   0.0
+        (1, 12.0) :   0.0 : -1.65839564303e-14 :   0.0
+        (1, 15.0) :   0.0 : -1.23390880846e-14 :   0.0
+        (1, 18.0) :   0.0 : -9.29985255471e-15 :   0.0
+        (1, 21.0) :   0.0 : -7.05078356811e-15 :   0.0
+        (1, 24.0) :   0.0 : -8.46892000972e-15 :   0.0
+        (1, 27.0) :   0.0 : -1.80792880666e-14 :   0.0
+        (1, 30.0) :   0.0 :  -1.8124390877e-14 :   0.0
+        (1, 33.0) :   0.0 : -1.82041881569e-14 :   0.0
+        (1, 36.0) :   0.0 : -1.82076576039e-14 :   0.0
+        (1, 39.0) :   0.0 : -1.52863832703e-14 :   0.0
+        (1, 42.0) :   0.0 : -7.79844938625e-15 :   0.0
+        (1, 45.0) :   0.0 : -2.03667378101e-16 :   0.0
+        (1, 48.0) :   0.0 :  1.33703811911e-15 :   0.0
+        (1, 51.0) :   0.0 :                0.0 :   0.0
+        (1, 54.0) :   0.0 :                0.0 :   0.0
+        (1, 57.0) :   0.0 :  1.94289029309e-15 :   0.0
+          (1, 60) :   0.0 : -1.94289029309e-15 :   0.0
+         (2, 3.0) :   0.0 : -2.44387843296e-14 :   0.0
+         (2, 6.0) :   0.0 : -1.71390679427e-14 :   0.0
+         (2, 9.0) :   0.0 : -1.96093141724e-14 :   0.0
+        (2, 12.0) :   0.0 : -1.85337856173e-14 :   0.0
+        (2, 15.0) :   0.0 : -1.68545732926e-14 :   0.0
+        (2, 18.0) :   0.0 : -1.80098991276e-14 :   0.0
+        (2, 21.0) :   0.0 : -2.04697370165e-14 :   0.0
+        (2, 24.0) :   0.0 : -2.03517758202e-14 :   0.0
+        (2, 27.0) :   0.0 : -1.80168380215e-14 :   0.0
+        (2, 30.0) :   0.0 : -1.82596993081e-14 :   0.0
+        (2, 33.0) :   0.0 : -1.80792880666e-14 :   0.0
+        (2, 36.0) :   0.0 : -1.81903103691e-14 :   0.0
+        (2, 39.0) :   0.0 : -1.53575069328e-14 :   0.0
+        (2, 42.0) :   0.0 : -7.72559100026e-15 :   0.0
+        (2, 45.0) :   0.0 : -2.93981419069e-16 :   0.0
+        (2, 48.0) :   0.0 :  1.36240844995e-15 :   0.0
+        (2, 51.0) :   0.0 :                0.0 :   0.0
+        (2, 54.0) :   0.0 :  3.16413562018e-15 :   0.0
+        (2, 57.0) :   0.0 : -8.16013923099e-15 :   0.0
+          (2, 60) :   0.0 :  4.99600361081e-15 :   0.0
+         (3, 3.0) :   0.0 : -2.07923955831e-14 :   0.0
+         (3, 6.0) :   0.0 : -2.02546313055e-14 :   0.0
+         (3, 9.0) :   0.0 : -2.01574867909e-14 :   0.0
+        (3, 12.0) :   0.0 : -1.85372550643e-14 :   0.0
+        (3, 15.0) :   0.0 : -1.68511038456e-14 :   0.0
+        (3, 18.0) :   0.0 : -1.79994907867e-14 :   0.0
+        (3, 21.0) :   0.0 : -2.04766759104e-14 :   0.0
+        (3, 24.0) :   0.0 : -2.03448369263e-14 :   0.0
+        (3, 27.0) :   0.0 : -1.81035741953e-14 :   0.0
+        (3, 30.0) :   0.0 : -1.81347992179e-14 :   0.0
+        (3, 33.0) :   0.0 : -1.82458215203e-14 :   0.0
+        (3, 36.0) :   0.0 :  -1.8127860324e-14 :   0.0
+        (3, 39.0) :   0.0 : -1.52638318651e-14 :   0.0
+        (3, 42.0) :   0.0 : -7.84008274968e-15 :   0.0
+        (3, 45.0) :   0.0 : -2.37386065666e-16 :   0.0
+        (3, 48.0) :   0.0 :  1.36956418428e-15 :   0.0
+        (3, 51.0) :   0.0 :                0.0 :   0.0
+        (3, 54.0) :   0.0 :  3.16413562018e-15 :   0.0
+        (3, 57.0) :   0.0 : -6.27276008913e-15 :   0.0
+          (3, 60) :   0.0 :  3.10862446895e-15 :   0.0
+         (4, 3.0) :   0.0 : -6.13658429627e-15 :   0.0
+         (4, 6.0) :   0.0 : -2.76167977376e-14 :   0.0
+         (4, 9.0) :   0.0 : -2.54136989231e-14 :   0.0
+        (4, 12.0) :   0.0 : -2.21211937657e-14 :   0.0
+        (4, 15.0) :   0.0 : -1.64972202565e-14 :   0.0
+        (4, 18.0) :   0.0 : -1.68094704822e-14 :   0.0
+        (4, 21.0) :   0.0 : -2.04627981226e-14 :   0.0
+        (4, 24.0) :   0.0 : -2.03413674793e-14 :   0.0
+        (4, 27.0) :   0.0 : -1.80619408319e-14 :   0.0
+        (4, 30.0) :   0.0 : -1.83152104594e-14 :   0.0
+        (4, 33.0) :   0.0 : -1.80688797258e-14 :   0.0
+        (4, 36.0) :   0.0 : -1.81070436422e-14 :   0.0
+        (4, 39.0) :   0.0 : -1.53869972319e-14 :   0.0
+        (4, 42.0) :   0.0 : -7.65706942296e-15 :   0.0
+        (4, 45.0) :   0.0 : -4.59105409939e-16 :   0.0
+        (4, 48.0) :   0.0 :  1.45066250679e-15 :   0.0
+        (4, 51.0) :   0.0 :                0.0 :   0.0
+        (4, 54.0) :   0.0 :  3.16413562018e-15 :   0.0
+        (4, 57.0) :   0.0 : -6.82787160144e-15 :   0.0
+          (4, 60) :   0.0 :  3.66373598126e-15 :   0.0
+         (5, 3.0) :   0.0 : -8.46653476494e-16 :   0.0
+         (5, 6.0) :   0.0 : -2.21827764491e-15 :   0.0
+         (5, 9.0) :   0.0 : -1.02105823796e-14 :   0.0
+        (5, 12.0) :   0.0 : -2.09693373776e-14 :   0.0
+        (5, 15.0) :   0.0 : -3.28764793167e-14 :   0.0
+        (5, 18.0) :   0.0 : -3.25087179398e-14 :   0.0
+        (5, 21.0) :   0.0 :  -2.5347779431e-14 :   0.0
+        (5, 24.0) :   0.0 : -2.38038755374e-14 :   0.0
+        (5, 27.0) :   0.0 : -2.04836148043e-14 :   0.0
+        (5, 30.0) :   0.0 : -1.99389116329e-14 :   0.0
+        (5, 33.0) :   0.0 : -1.92901250529e-14 :   0.0
+        (5, 36.0) :   0.0 : -1.90264470845e-14 :   0.0
+        (5, 39.0) :   0.0 : -1.56385321359e-14 :   0.0
+        (5, 42.0) :   0.0 : -8.00748356511e-15 :   0.0
+        (5, 45.0) :   0.0 : -3.91776455028e-16 :   0.0
+        (5, 48.0) :   0.0 :  1.64820414261e-15 :   0.0
+        (5, 51.0) :   0.0 :                0.0 :   0.0
+        (5, 54.0) :   0.0 :                0.0 :   0.0
+        (5, 57.0) :   0.0 :  5.55111512313e-16 :   0.0
+          (5, 60) :   0.0 : -5.55111512313e-16 :   0.0
+    RoC : Size=120
+        Key : Lower : Body              : Upper
+          1 :  None :              0.04 :  0.04
+          2 :  None :   0.0248107078904 :  0.04
+          3 :  None :              0.04 :  0.04
+          4 :  None :              0.04 :  0.04
+          5 :  None :              0.04 :  0.04
+          6 :  None :              0.04 :  0.04
+          7 :  None :               0.0 :  0.04
+          8 :  None :              0.04 :  0.04
+          9 :  None :   0.0370318903438 :  0.04
+         10 :  None :               0.0 :  0.04
+         11 :  None :               0.0 :  0.04
+         12 :  None :               0.0 :  0.04
+         13 :  None :               0.0 :  0.04
+         14 :  None :  0.00233753424394 :  0.04
+         15 :  None : 1.05158878691e-08 :  0.04
+         16 :  None :   0.0360091944921 :  0.04
+         17 :  None :               0.0 :  0.04
+         18 :  None :               0.0 :  0.04
+         19 :  None :               0.0 :  0.04
+         20 :  None : 0.000119012724185 :  0.04
+         21 :  None : 0.000528737410874 :  0.04
+         22 :  None :              0.04 :  0.04
+         23 :  None :               0.0 :  0.04
+         24 :  None :               0.0 :  0.04
+         25 :  None :               0.0 :  0.04
+         26 :  None : 3.53519864204e-05 :  0.04
+         27 :  None : 0.000319291703669 :  0.04
+         28 :  None :              0.04 :  0.04
+         29 :  None :               0.0 :  0.04
+         30 :  None :               0.0 :  0.04
+         31 :  None :               0.0 :  0.04
+         32 :  None :  0.00134388448901 :  0.04
+         33 :  None : 0.000481940955242 :  0.04
+         34 :  None :  0.00179214484087 :  0.04
+         35 :  None :               0.0 :  0.04
+         36 :  None :               0.0 :  0.04
+         37 :  None :               0.0 :  0.04
+         38 :  None :    0.002605522094 :  0.04
+         39 :  None :  0.00153336872288 :  0.04
+         40 :  None :   0.0231765023827 :  0.04
+         41 :  None :               0.0 :  0.04
+         42 :  None :               0.0 :  0.04
+         43 :  None :  0.00182986909682 :  0.04
+         44 :  None :  0.00232835372359 :  0.04
+         45 :  None : 0.000590231274489 :  0.04
+         46 :  None :  0.00242674772948 :  0.04
+         47 :  None :               0.0 :  0.04
+         48 :  None :               0.0 :  0.04
+         49 :  None :   0.0214477609393 :  0.04
+         50 :  None :  0.00487246029327 :  0.04
+         51 :  None :  0.00105470814667 :  0.04
+         52 :  None :  0.00361361446052 :  0.04
+         53 :  None :               0.0 :  0.04
+         54 :  None :               0.0 :  0.04
+         55 :  None :  0.00158272669846 :  0.04
+         56 :  None : 4.86576763028e-07 :  0.04
+         57 :  None : 4.86303348828e-07 :  0.04
+         58 :  None : 6.05364940604e-07 :  0.04
+         59 :  None :               0.0 :  0.04
+         60 :  None :               0.0 :  0.04
+         61 :  None : 0.000269990989536 :  0.04
+         62 :  None : 1.80211939243e-07 :  0.04
+         63 :  None : 1.80319387278e-07 :  0.04
+         64 :  None : 8.54952388779e-08 :  0.04
+         65 :  None :               0.0 :  0.04
+         66 :  None :               0.0 :  0.04
+         67 :  None : 2.73197135068e-08 :  0.04
+         68 :  None : 6.42201892839e-08 :  0.04
+         69 :  None : 6.42490325609e-08 :  0.04
+         70 :  None : 1.29600295191e-08 :  0.04
+         71 :  None :               0.0 :  0.04
+         72 :  None :               0.0 :  0.04
+         73 :  None : 0.000707809595889 :  0.04
+         74 :  None :  0.00166476858602 :  0.04
+         75 :  None :  0.00166476781009 :  0.04
+         76 :  None :   0.0267098647531 :  0.04
+         77 :  None :   0.0294229434249 :  0.04
+         78 :  None :               0.0 :  0.04
+         79 :  None :   0.0131276683339 :  0.04
+         80 :  None :  0.00117615359746 :  0.04
+         81 :  None : 0.000165003221682 :  0.04
+         82 :  None :   0.0214373272169 :  0.04
+         83 :  None :              0.04 :  0.04
+         84 :  None :              0.04 :  0.04
+         85 :  None :   0.0135178966373 :  0.04
+         86 :  None :  0.00136069645285 :  0.04
+         87 :  None : 0.000105120604583 :  0.04
+         88 :  None :   0.0182996657529 :  0.04
+         89 :  None :              0.04 :  0.04
+         90 :  None :              0.04 :  0.04
+         91 :  None :   0.0279287291115 :  0.04
+         92 :  None :   0.0133444263435 :  0.04
+         93 :  None :  0.00470481118094 :  0.04
+         94 :  None :   0.0327361280782 :  0.04
+         95 :  None :   0.0151601309795 :  0.04
+         96 :  None :    0.039637657771 :  0.04
+         97 :  None :  0.00816887787637 :  0.04
+         98 :  None :   0.0063261676025 :  0.04
+         99 :  None :  0.00358151196335 :  0.04
+        100 :  None :              0.04 :  0.04
+        101 :  None :   0.0331036971663 :  0.04
+        102 :  None :   0.0069795705488 :  0.04
+        103 :  None :   0.0170066822172 :  0.04
+        104 :  None :  0.00999997939587 :  0.04
+        105 :  None :    0.004444444348 :  0.04
+        106 :  None :   0.0400000000031 :  0.04
+        107 :  None :   0.0266666714412 :  0.04
+        108 :  None :   0.0199999999149 :  0.04
+        109 :  None :   0.0123770738832 :  0.04
+        110 :  None :  0.00727774289701 :  0.04
+        111 :  None :  0.00323454147949 :  0.04
+        112 :  None :   0.0291108696599 :  0.04
+        113 :  None :   0.0194072453797 :  0.04
+        114 :  None :    0.014555434533 :  0.04
+        115 :  None :   0.0170066630088 :  0.04
+        116 :  None :   0.0100000094241 :  0.04
+        117 :  None :  0.00444444485065 :  0.04
+        118 :  None :              0.04 :  0.04
+        119 :  None :   0.0266666665837 :  0.04
+        120 :  None :   0.0200000000135 :  0.04
+    _obj_var : Size=1
+        Key  : Lower : Body               : Upper
+        None :   0.0 : -6.51135158236e-07 :   0.0
+>>> 
+

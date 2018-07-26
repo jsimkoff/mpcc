@@ -5,17 +5,13 @@ from pyomo.environ import *
 from pyomo.dae import *
 from matplotlib import pyplot as plt
 
-<<<<<<< HEAD
-Ntank = 10
-m = ConcreteModel()
-m.I = RangeSet(Ntank)
-m.t = ContinuousSet(bounds=[0,60])
-=======
+
+
 Ntank = 5
 m = ConcreteModel()
 m.I = RangeSet(Ntank)
-m.t = ContinuousSet(bounds=[0,100])
->>>>>>> f8e829e407275a773081ba107e4703698ee2020f
+m.t = ContinuousSet(bounds=[0,60])
+
 
 m.L = Var(m.I, m.t, within=NonNegativeReals, initialize=0.75)
 m.delL = Var(m.I, m.t, within=NonNegativeReals)
@@ -38,8 +34,8 @@ m.dLdt = DerivativeVar(m.L, wrt=m.t)
 
 m.y1 = Var(m.I, m.t, within=Binary)
 m.y2 = Var(m.I, m.t, within=Binary)
-m.M1 = 0.6
-m.M2 = 0.4
+m.M1 = 0.60
+m.M2 = 0.40
 
 
 @m.Constraint(m.I, m.t)
@@ -79,11 +75,18 @@ def _ysum(m, i, t):
 
 @m.Constraint(m.I, m.t)
 def _bigM1(m, i, t):
-    return -m.M1*(1 - m.y1[i, t]) <= m.L[i, t] - m.H[i]
+    if i < Ntank:
+        return -m.M1*(1 - m.y1[i, t]) <= m.L[i+1, t] - m.H[i+1]
+    else:
+        return Constraint.Skip
 
 @m.Constraint(m.I, m.t)
 def _bigM2(m, i, t):
-    return m.L[i, t] - m.H[i] <= m.M2*(1 - m.y2[i, t])
+    if i < Ntank:
+        return m.L[i+1, t] - m.H[i+1] <= m.M2*(1 - m.y2[i, t])
+    else:
+        return Constraint.Skip
+
 
 @m.ConstraintList()
 def ICs(m):
@@ -91,17 +94,12 @@ def ICs(m):
         yield m.L[i,0] == 0
 
 
-<<<<<<< HEAD
+
 discretizer = TransformationFactory('dae.collocation')
 discretizer.apply_to(m, nfe=20, ncp=1)
 
 # add rate of change constraints to valve opening problem
-=======
-discretizer = TransformationFactory('dae.finite_difference')
-discretizer.apply_to(m, nfe=20, scheme='BACKWARD')
 
-# add rate of change constraints to valve opening proble
->>>>>>> f8e829e407275a773081ba107e4703698ee2020f
 
 @m.ConstraintList()
 def RoC(m):
@@ -113,19 +111,13 @@ def RoC(m):
             yield (m.w0[tplus] -m.w0[t])**2 <= 0.04
             t = tplus
 
-<<<<<<< HEAD
-# big-M formulation seems to need additional endpoint constraint
+
 
 # @m.Constraint(m.I)
 # def endpoint(m, i):
 #     tfinal = m.t.last()
 #     return inequality(0.749, m.L[i, tfinal], 0.751)
-=======
-@m.Constraint(m.I)
-def endpoint(m, i):
-    tfinal = m.t.last()
-    return inequality(0.749, m.L[i, tfinal], 0.751)
->>>>>>> f8e829e407275a773081ba107e4703698ee2020f
+
 
 
 
@@ -133,8 +125,8 @@ m.obj = Objective(sense=minimize, expr=sum(sum((0.75-m.L[i,t])**2 for t in m.t) 
 
 
 solver = SolverFactory('bonmin')
-solver.options["ma27_pivtol"] = 1e-6
-solver.options["tol"] = 1e-12
+solver.options["ma27_pivtol"] = 1e-10
+solver.options["tol"] = 1e-6
 results = solver.solve(m, tee=True)
 print("time: %0.4f\n" % results['Solver'][0]['Time'])
 
@@ -249,8 +241,8 @@ plt.plot(m.t, y1_3, label='y1_3')
 if Ntank > 3:
     plt.plot(m.t, y2_4, label='y2_4')
     plt.plot(m.t, y1_4, label='y1_4')
-    plt.plot(m.t, y2_5, label='y2_5')
-    plt.plot(m.t, y1_5, label='y1_5')
+    # plt.plot(m.t, y2_5, label='y2_5')
+    # plt.plot(m.t, y1_5, label='y1_5')
 plt.legend()
 
 plt.ion()

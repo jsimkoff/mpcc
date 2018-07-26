@@ -3,15 +3,16 @@
 
 from pyomo.environ import *
 from pyomo.dae import *
+from pyomo.gdp import Disjunct, Disjunction
 from matplotlib import pyplot as plt
 
-Ntank = 10
+Ntank = 3
 m = ConcreteModel()
 m.I = RangeSet(Ntank)
 m.t = ContinuousSet(bounds=[0,60])
 
-m.L = Var(m.I, m.t, within=NonNegativeReals, initialize=0.75)
-m.delL = Var(m.I, m.t, within=NonNegativeReals)
+m.L = Var(m.I, m.t, within=NonNegativeReals, initialize=0.75, bounds=(0, 1))
+m.delL = Var(m.I, m.t, bounds=(-1, 1))
 m.F = Var(m.I, m.t)
 m.F0 = Var(m.t)
 m.w = Var(m.I, m.t, bounds=(0.1,1))
@@ -28,11 +29,6 @@ m.H[2] = 0.6
 m.A = Param(m.I, initialize=1.0)
 
 m.dLdt = DerivativeVar(m.L, wrt=m.t)
-
-m.y1 = Var(m.I, m.t, within=Binary)
-m.y2 = Var(m.I, m.t, within=Binary)
-m.M1 = 0.6
-m.M2 = 0.4
 
 
 @m.Constraint(m.I, m.t)
@@ -53,39 +49,47 @@ def _F(m, i, t):
 @m.Constraint(m.t)
 def _F0(m, t):
     return m.F0[t] == m.k0*m.w0[t]
-### NEED TO ADD MPCC formulation :
 
-@m.Constraint(m.I, m.t)
-def _delL(m, i, t):
-    if i < Ntank:
-        return m.delL[i, t] == (m.L[i, t] - (m.L[i+1, t] - m.H[i+1]))*m.y1[i, t]  \
-                                + m.L[i, t]*(m.y2[i, t])
-    elif i == Ntank:
-        return m.delL[i, t] == m.L[i, t]
-    else:
-        return Constraint.Skip
-
-
-@m.Constraint(m.I, m.t)
-def _ysum(m, i, t):
-    return m.y1[i, t] + m.y2[i, t] == 1
-
-@m.Constraint(m.I, m.t)
-def _bigM1(m, i, t):
-    return -m.M1*(1 - m.y1[i, t]) <= m.L[i, t] - m.H[i]
-
-@m.Constraint(m.I, m.t)
-def _bigM2(m, i, t):
-    return m.L[i, t] - m.H[i] <= m.M2*(1 - m.y2[i, t])
 
 @m.ConstraintList()
 def ICs(m):
     for i in m.I:
         yield m.L[i,0] == 0
 
+# fix the value of delL in the Nth tank since this value
+# is not dependent on a next tank (there is none)
+
+@m.Constraint(m.t)
+def delL_N(m, t):
+    return m.delL[Ntank, t] == m.L[Ntank, t]
+
 
 discretizer = TransformationFactory('dae.collocation')
 discretizer.apply_to(m, nfe=20, ncp=1)
+
+
+
+m.BigM = Suffix(direction=Suffix.LOCAL)
+m.D1 = Disjunct(m.I, m.t)   # case where level in next tank is below inlet height
+for t in m.t:
+    for i in range(1,Ntank):
+        disj = m.D1[i, t]
+        disj.low_level = Constraint(expr=m.L[i+1, t] <= m.H[i+1])
+        disj.low_dynamics = Constraint(expr=m.delL[i, t] == m.L[i, t])
+        m.BigM[disj.low_level] = 0.6
+
+
+m.D2 = Disjunct(m.I, m.t)   # case where level in next tank is at or above inlet height
+for t in m.t:
+    for i in range(1, Ntank):
+        disj = m.D2[i, t]
+        disj.high_level = Constraint(expr=m.L[i+1, t] >= m.H[i+1])
+        disj.high_dynamics = Constraint(expr=m.delL[i, t] == m.L[i, t] - (m.L[i+1, t] - m.H[i+1]))
+        m.BigM[disj.high_level] = 0.3
+
+def _disjunction_rule(m, i, t):
+    return [m.D1[i, t], m.D2[i, t]]
+m.djcn = Disjunction(m.I, m.t, rule=_disjunction_rule)
 
 # add rate of change constraints to valve opening problem
 
@@ -99,22 +103,14 @@ def RoC(m):
             yield (m.w0[tplus] -m.w0[t])**2 <= 0.04
             t = tplus
 
-# big-M formulation seems to need additional endpoint constraint
-
-# @m.Constraint(m.I)
-# def endpoint(m, i):
-#     tfinal = m.t.last()
-#     return inequality(0.749, m.L[i, tfinal], 0.751)
-
-
 
 m.obj = Objective(sense=minimize, expr=sum(sum((0.75-m.L[i,t])**2 for t in m.t) for i in m.I))
 
 
-solver = SolverFactory('bonmin')
-solver.options["ma27_pivtol"] = 1e-6
-solver.options["tol"] = 1e-12
-results = solver.solve(m, tee=True)
+TransformationFactory('gdp.bigm').apply_to(m)
+
+results = SolverFactory('gdpopt').solve(m)
+
 print("time: %0.4f\n" % results['Solver'][0]['Time'])
 
 m.obj.display()

@@ -1,0 +1,74 @@
+Loosely Coupled vs Tightly Coupled
+. Initial focus on loose coupling.
+. Tight coupling requires motivating use-cases that we don't have right now.
+
+------------------------------------------------------------
+
+Parameter Sweep: CARL
+. State-less master-worker
+. Run optimizer on each
+
+Multi-Start Optimization: CARL??
+. Run many solvers
+. Keep best solutions
+
+Simple PH: BILL
+. State-less master-worker
+
+Parallel Benders: BILL?
+. State-less master-worker
+
+Branch-and-Bound: BILL
+. State-less master-worker
+. Subtree search
+
+Schur Complement Example: CARL
+. Tight coupling with numpy and scipy
+
+------------------------------------------------------------
+
+1. State-less:             Empty State
+2. State-full, Uniform:    All workers start from same state
+3. State-full, Nonuniform: All workers start from different state
+
+A. Sync vs Async
+
+------------------------------------------------------------
+
+Carl will look at:
+        Mpi4py
+        Multiprocessing
+        Disco - map/reduce
+        
+Bill will look at:
+        Pyro
+        Celery
+        PyCloud
+        
+No one will do for now:
+        StarCluster
+        Superbly
+        ScientificPython
+
+------------------------------------------------------------
+
+PLATFORMS FOR TESTING
+
+. Laptop
+. Shared memory workstations
+. HPC cluster
+
+------------------------------------------------------------
+
+STEPs:
+
+. Draft serial
+. Draft 6 parallel variants
+
+------------------------------------------------------------
+
+SOFTWARE DESIGN
+
+. Model factory
+. Workflow logic
+
